@@ -1,0 +1,281 @@
+{
+  "Enable": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "EnableAutomation": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "AdvancedMode": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "GlobalKeyPressCooldown": {
+    "Value": 235
+  },
+  "MaxMonsterRange": {
+    "Value": 200
+  },
+  "Profiles": [
+    {
+      "Name": "旋风",
+      "ShowcaseUrl": "",
+      "Rules": [
+        {
+          "Enabled": true,
+          "Name": "喝血",
+          "EnabledInMaps": true,
+          "EnabledInTown": false,
+          "EnabledInHideout": false,
+          "EnabledInPeacefulAreas": false,
+          "Action": {
+            "InputKind": 0,
+            "Key": 49,
+            "AutoFace": false,
+            "AutoFaceRarity": 15,
+            "AutoFaceRange": 100,
+            "InputLabel": "D1"
+          },
+          "Conditions": [
+            {
+              "Kind": 1,
+              "Operator": 0,
+              "Value": 80.0,
+              "Text": "",
+              "Range": 50,
+              "Rarity": 15,
+              "BoolValue": true,
+              "MouseButton": 0,
+              "FlaskSlot": 1,
+              "CullNormal": 35.0,
+              "CullMagic": 20.0,
+              "CullRare": 10.0,
+              "CullUnique": 5.0
+            }
+          ],
+          "Cooldown": 0.0,
+          "OnCooldown": false
+        },
+        {
+          "Enabled": true,
+          "Name": "喝蓝",
+          "EnabledInMaps": true,
+          "EnabledInTown": false,
+          "EnabledInHideout": false,
+          "EnabledInPeacefulAreas": false,
+          "Action": {
+            "InputKind": 0,
+            "Key": 50,
+            "AutoFace": false,
+            "AutoFaceRarity": 15,
+            "AutoFaceRange": 100,
+            "InputLabel": "D2"
+          },
+          "Conditions": [
+            {
+              "Kind": 4,
+              "Operator": 0,
+              "Value": 80.0,
+              "Text": "",
+              "Range": 50,
+              "Rarity": 15,
+              "BoolValue": true,
+              "MouseButton": 0,
+              "FlaskSlot": 1,
+              "CullNormal": 35.0,
+              "CullMagic": 20.0,
+              "CullRare": 10.0,
+              "CullUnique": 5.0
+            }
+          ],
+          "Cooldown": 0.0,
+          "OnCooldown": false
+        }
+      ],
+      "Combos": [
+        {
+          "Enabled": true,
+          "Name": "回旋",
+          "Steps": [
+            {
+              "Name": "回旋1",
+              "Action": {
+                "InputKind": 0,
+                "Key": 81,
+                "AutoFace": false,
+                "AutoFaceRarity": 15,
+                "AutoFaceRange": 100,
+                "InputLabel": "Q"
+              },
+              "Conditions": [
+                {
+                  "Kind": 0,
+                  "Operator": 3,
+                  "Value": 1.0,
+                  "Text": "TwisterPlayer",
+                  "Range": 50,
+                  "Rarity": 15,
+                  "BoolValue": true,
+                  "MouseButton": 0,
+                  "FlaskSlot": 1,
+                  "CullNormal": 35.0,
+                  "CullMagic": 20.0,
+                  "CullRare": 10.0,
+                  "CullUnique": 5.0
+                }
+              ],
+              "DelayAfterMs": 200
+            },
+            {
+              "Name": "回旋2",
+              "Action": {
+                "InputKind": 0,
+                "Key": 81,
+                "AutoFace": false,
+                "AutoFaceRarity": 15,
+                "AutoFaceRange": 100,
+                "InputLabel": "Q"
+              },
+              "Conditions": [
+                {
+                  "Kind": 0,
+                  "Operator": 3,
+                  "Value": 1.0,
+                  "Text": "TwisterPlayer",
+                  "Range": 50,
+                  "Rarity": 15,
+                  "BoolValue": true,
+                  "MouseButton": 0,
+                  "FlaskSlot": 1,
+                  "CullNormal": 35.0,
+                  "CullMagic": 20.0,
+                  "CullRare": 10.0,
+                  "CullUnique": 5.0
+                }
+              ],
+              "DelayAfterMs": 200
+            },
+            {
+              "Name": "回旋3",
+              "Action": {
+                "InputKind": 0,
+                "Key": 81,
+                "AutoFace": false,
+                "AutoFaceRarity": 15,
+                "AutoFaceRange": 100,
+                "InputLabel": "Q"
+              },
+              "Conditions": [
+                {
+                  "Kind": 0,
+                  "Operator": 3,
+                  "Value": 1.0,
+                  "Text": "TwisterPlayer",
+                  "Range": 50,
+                  "Rarity": 15,
+                  "BoolValue": true,
+                  "MouseButton": 0,
+                  "FlaskSlot": 1,
+                  "CullNormal": 35.0,
+                  "CullMagic": 20.0,
+                  "CullRare": 10.0,
+                  "CullUnique": 5.0
+                }
+              ],
+              "DelayAfterMs": 200
+            },
+            {
+              "Name": "弹幕",
+              "Action": {
+                "InputKind": 0,
+                "Key": 82,
+                "AutoFace": false,
+                "AutoFaceRarity": 15,
+                "AutoFaceRange": 100,
+                "InputLabel": "R"
+              },
+              "Conditions": [
+                {
+                  "Kind": 19,
+                  "Operator": 3,
+                  "Value": 1.0,
+                  "Text": "BarragePlayer",
+                  "Range": 50,
+                  "Rarity": 15,
+                  "BoolValue": true,
+                  "MouseButton": 0,
+                  "FlaskSlot": 1,
+                  "CullNormal": 35.0,
+                  "CullMagic": 20.0,
+                  "CullRare": 10.0,
+                  "CullUnique": 5.0
+                }
+              ],
+              "DelayAfterMs": 575
+            },
+            {
+              "Name": "旋风",
+              "Action": {
+                "InputKind": 0,
+                "Key": 69,
+                "AutoFace": false,
+                "AutoFaceRarity": 15,
+                "AutoFaceRange": 100,
+                "InputLabel": "E"
+              },
+              "Conditions": [
+                {
+                  "Kind": 0,
+                  "Operator": 2,
+                  "Value": 0.0,
+                  "Text": "",
+                  "Range": 150,
+                  "Rarity": 15,
+                  "BoolValue": true,
+                  "MouseButton": 0,
+                  "FlaskSlot": 1,
+                  "CullNormal": 35.0,
+                  "CullMagic": 20.0,
+                  "CullRare": 10.0,
+                  "CullUnique": 5.0
+                }
+              ],
+              "DelayAfterMs": 200
+            }
+          ],
+          "EnabledInMaps": true,
+          "EnabledInTown": false,
+          "EnabledInHideout": false,
+          "EnabledInPeacefulAreas": false,
+          "ResetAfterIdleMs": 0,
+          "CurrentStep": 0
+        }
+      ]
+    }
+  ],
+  "ActiveProfileIndex": 0,
+  "Rules": [],
+  "Combos": []
+}

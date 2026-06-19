@@ -1,0 +1,91 @@
+{
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "EnableSoundAlerts": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "Volume": {
+    "Value": 50
+  },
+  "ModifiersToAlert": {
+    "Value": "额外暴击=>,MonsterCriticalStrikeChance1,额外感电=>,MonsterShockChanceIncrease1,急速、迅捷=>,MonsterIncreasedSpeed1,狂暴=>,MonsterPeriodicEnrage2"
+  },
+  "ShowAlertText": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "AlertPositionX": {
+    "Value": 10.0
+  },
+  "AlertPositionY": {
+    "Value": 10.0
+  },
+  "HealthBarYOffset": {
+    "Value": 40
+  },
+  "Font": {
+    "Value": "syht:14"
+  },
+  "DebugMessages": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "PlayAlert": {},
+  "TrackModifiers": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ObservedModifiersFile": {
+    "Value": "observed_modifiers.txt"
+  },
+  "OpenObservedFile": {},
+  "AnchorToHealthbar": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  }
+}

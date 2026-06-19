@@ -1,0 +1,212 @@
+{
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "PartyElements": [
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "TargetPlayerName": {
+    "Value": ""
+  },
+  "UsingCheckpoint": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ReviveTeammates": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "FollowDistance": {
+    "Value": 460
+  },
+  "TargetMin": {
+    "Value": 10
+  },
+  "TargetMax": {
+    "Value": 50
+  },
+  "ActionCooldown": {
+    "Value": 50
+  },
+  "ActionCooldownMax": {
+    "Value": 150
+  },
+  "NoSpace": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "TogglePauseHotkey": {
+    "Value": 51
+  },
+  "IsPaused": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "Additional": {
+    "UseMouse": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "FollowKey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "T",
+        "Win": false
+      }
+    }
+  },
+  "Blink": {
+    "Enable": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "Range": {
+      "Value": 1000
+    },
+    "Cooldown": {
+      "Value": 500
+    }
+  },
+  "Pickup": {
+    "Enable": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "UseTargetPosition": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "Range": {
+      "Value": 400
+    },
+    "Filter": {
+      "Value": "Orb,Mirror"
+    },
+    "RangeToIgnore": {
+      "Value": 1200
+    }
+  },
+  "ReAgent": {
+    "Enable": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "ReAgentTime": {
+      "Value": 100
+    },
+    "HP": {
+      "Value": 50
+    },
+    "HPKey": {
+      "Value": 49
+    },
+    "ES": {
+      "Value": 50
+    },
+    "ESKey": {
+      "Value": 49
+    },
+    "Mana": {
+      "Value": 50
+    },
+    "ManaKey": {
+      "Value": 50
+    }
+  },
+  "MemoryCleanup": {
+    "Enable": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "CleanupInterval": {
+      "Value": 30
+    },
+    "MemoryThreshold": {
+      "Value": 80
+    },
+    "ManualCleanup": {}
+  }
+}
