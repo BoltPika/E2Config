@@ -1,0 +1,285 @@
+{
+  "Enable": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ActionDelay": {
+    "Value": 75
+  },
+  "RandomDelay": {
+    "Value": 25
+  },
+  "CancelWithRightClick": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "DeferExistingItems": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "AutoConfirm": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "AutoPickup": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "AutoReroll": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "IncludeCurrencyItems": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "MinCurrencyValue": {
+    "Value": 20.0
+  },
+  "IncludeRitualItems": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "MinRitualValue": {
+    "Value": 20.0
+  },
+  "IncludeUniqueAccessories": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "MinUniqueAccessoriesValue": {
+    "Value": 20.0
+  },
+  "IncludeUniqueArmour": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "MinUniqueArmourValue": {
+    "Value": 20.0
+  },
+  "IncludeUniqueCharms": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "MinUniqueCharmsValue": {
+    "Value": 20.0
+  },
+  "IncludeUniqueFlasks": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "MinUniqueFlasksValue": {
+    "Value": 20.0
+  },
+  "IncludeUniqueIdols": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "MinUniqueIdolsValue": {
+    "Value": 20.0
+  },
+  "IncludeUniqueJewels": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "MinUniqueJewelsValue": {
+    "Value": 20.0
+  },
+  "IncludeUniqueWeapons": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "MinUniqueWeaponsValue": {
+    "Value": 20.0
+  },
+  "DrawDebugOverlay": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "DeferGroup": {
+    "Items": [
+      {
+        "Name": "卡蘭德的魔鏡",
+        "Enabled": true,
+        "Priority": 10,
+        "MinStackSize": 1,
+        "IsApiItem": {
+          "Value": false,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        }
+      },
+      {
+        "Name": "髮辮",
+        "Enabled": true,
+        "Priority": 5,
+        "MinStackSize": 1,
+        "IsApiItem": {
+          "Value": false,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        }
+      },
+      {
+        "Name": "獵首",
+        "Enabled": true,
+        "Priority": 5,
+        "MinStackSize": 1,
+        "IsApiItem": {
+          "Value": false,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        }
+      },
+      {
+        "Name": "混沌",
+        "Enabled": true,
+        "Priority": 5,
+        "MinStackSize": 1,
+        "IsApiItem": {
+          "Value": false,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        }
+      }
+    ],
+    "Enabled": true,
+    "Name": "Default Defer Group"
+  }
+}
