@@ -1,19 +1,19 @@
 {
   "AllStashNames": [
     "忽略",
+    "通货",
     "杂货",
+    "旋风",
     "杂货",
-    "杂货",
+    "噴油",
     "市集",
     "传奇",
     "地图",
     "珠宝",
     "底材",
-    "替換",
     "技能",
     "精髓",
     "涂油",
-    "通货",
     "传奇",
     "增幅",
     "祭坛"
@@ -90,13 +90,21 @@
     "深渊兆": {
       "Value": "忽略",
       "Index": -1
+    },
+    "异界黎明宝库钥匙": {
+      "Value": "白裝底材",
+      "Index": 21
+    },
+    "白装黎明宝库钥匙": {
+      "Value": "忽略",
+      "Index": -1
     }
   },
   "FilterFile": {
     "Value": "通用"
   },
   "DropHotkey": {
-    "Value": 52
+    "Value": 96
   },
   "InspectInventoryItems": {
     "Value": true,
@@ -122,7 +130,7 @@
     "Value": 50
   },
   "VisitTabWhenDone": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -180,8 +188,8 @@
       0,
       0,
       0,
-      0,
-      0
+      1,
+      1
     ],
     [
       0,
@@ -194,8 +202,8 @@
       0,
       0,
       0,
-      0,
-      0
+      1,
+      1
     ],
     [
       0,
@@ -208,8 +216,8 @@
       0,
       0,
       0,
-      0,
-      0
+      1,
+      1
     ],
     [
       0,
@@ -222,8 +230,8 @@
       0,
       0,
       0,
-      0,
-      0
+      1,
+      1
     ],
     [
       0,
@@ -236,8 +244,8 @@
       0,
       0,
       0,
-      0,
-      0
+      1,
+      1
     ]
   ],
   "IgnoredExpandedCells": [
@@ -276,17 +284,6 @@
   "ConfigLastSelected": "通用",
   "CurrentFilterOptions": {
     "ParentMenu": [
-      {
-        "Filters": [
-          {
-            "Affinity": false,
-            "FilterName": "全部",
-            "RawQuery": "ClassName == \"StackableCurrency\"\n&& !ContainsString(Path, new string[] { \"CurrencyDelveCrafting\", \"CurrencyItemisedProphecy\", \"CurrencyAfflictionOrb\", \"Mushrune\", \"Essence\" })\n&& !ContainsString(BaseName, new string[] { \"Stacked Deck\", \"Catalyst\", \"Primeval Remnant\", \"Remnant\", \"Splinter\", \"Oil Extractor\" , \"Filled Coffin\"})",
-            "Shifting": false
-          }
-        ],
-        "MenuName": "通货"
-      },
       {
         "Filters": [
           {
@@ -414,7 +411,7 @@
     ]
   },
   "Enable": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",

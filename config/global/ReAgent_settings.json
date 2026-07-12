@@ -5,7 +5,7 @@
         {
           "Rules": [
             {
-              "RuleSource": "Vitals.血.百分比 <= 70 & \"<--喝药百分比\" != \"\" &\nFlasks[0].CanBeUsed & \"<--血瓶可用\" != \"\" &\n!Flasks[0].active & \"<--上次药效结束\" != \"\" & \n按键间隔(0.11) & \"<--距离上次按键间隔\" != \"\" ",
+              "RuleSource": "Vitals.血.百分比 <= 34 & \"<--喝药百分比\" != \"\" &\nFlasks[0].CanBeUsed & \"<--血瓶可用\" != \"\" &\n!Flasks[0].active & \"<--上次药效结束\" != \"\" & \n按键间隔(0.5) & \"<--距离上次按键间隔\" != \"\" ",
               "Type": 0,
               "KeyV2": {
                 "ValueV2": {
@@ -20,10 +20,10 @@
           ],
           "Enabled": true,
           "EnabledInTown": false,
-          "EnabledInHideout": true,
+          "EnabledInHideout": false,
           "EnabledInPeacefulAreas": false,
           "EnabledInMaps": true,
-          "Name": "喝血展开改数",
+          "Name": "自动喝血",
           "KeyV2": {
             "ValueV2": {
               "ControllerKey": "None",
@@ -45,7 +45,7 @@
         {
           "Rules": [
             {
-              "RuleSource": "Vitals.蓝.百分比 <= 30  & \"<--喝药百分比\" != \"\" &\nFlasks[1].CanBeUsed & \"<--蓝瓶可用\" != \"\" &\n!Flasks[1].active & \"<--上次药效结束\" != \"\" & \n按键间隔(0.15) & \"<--距离上次按键间隔\" != \"\" ",
+              "RuleSource": "Vitals.蓝.百分比 <= 80  & \"<--喝药百分比\" != \"\" &\nFlasks[1].CanBeUsed & \"<--蓝瓶可用\" != \"\" &\n!Flasks[1].active & \"<--上次药效结束\" != \"\" & \n按键间隔(0.2) & \"<--距离上次按键间隔\" != \"\" ",
               "Type": 0,
               "KeyV2": {
                 "ValueV2": {
@@ -60,7 +60,7 @@
           ],
           "Enabled": true,
           "EnabledInTown": false,
-          "EnabledInHideout": true,
+          "EnabledInHideout": false,
           "EnabledInPeacefulAreas": false,
           "EnabledInMaps": true,
           "Name": "喝蓝展开改数",
@@ -91,7 +91,7 @@
                 "ValueV2": {
                   "ControllerKey": "None",
                   "ControllerModifierKey": "None",
-                  "Key": "D1",
+                  "Key": "None",
                   "Win": false
                 }
               },
@@ -100,50 +100,10 @@
           ],
           "Enabled": false,
           "EnabledInTown": false,
-          "EnabledInHideout": true,
+          "EnabledInHideout": false,
           "EnabledInPeacefulAreas": false,
           "EnabledInMaps": true,
           "Name": "低盾喝血",
-          "KeyV2": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "None",
-              "Win": false
-            }
-          },
-          "hotkeyNode": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "None",
-              "Win": false
-            }
-          },
-          "Key": 0
-        },
-        {
-          "Rules": [
-            {
-              "RuleSource": "Vitals.结界.百分比 <= 10  & \"<--喝药百分比\" != \"\" &\nFlasks[0].CanBeUsed & \"<--血瓶可用\" != \"\" &\n!Flasks[0].active & \"<--上次药效结束\" != \"\" & \n按键间隔(0.5) & \"<--距离上次按键间隔\" != \"\" ",
-              "Type": 0,
-              "KeyV2": {
-                "ValueV2": {
-                  "ControllerKey": "None",
-                  "ControllerModifierKey": "None",
-                  "Key": "D1",
-                  "Win": false
-                }
-              },
-              "SyntaxVersion": 1
-            }
-          ],
-          "Enabled": false,
-          "EnabledInTown": false,
-          "EnabledInHideout": true,
-          "EnabledInPeacefulAreas": false,
-          "EnabledInMaps": true,
-          "Name": "低结界喝血",
           "KeyV2": {
             "ValueV2": {
               "ControllerKey": "None",
@@ -318,13 +278,13 @@
         {
           "Rules": [
             {
-              "RuleSource": "按键间隔(0.1) & \"<--距离上次按键间隔\" != \"\" &\n识别怪物().Any(m => m.DistanceToCursor <= 50 && m.IsAlive) &\n怪物数量(50, MonsterRarity.Unique) >= 0",
+              "RuleSource": "按键间隔(3) & \"<--距离上次按键间隔\" != \"\" &\n识别怪物().Any(m => m.DistanceToCursor <= 50 && m.IsAlive) &\n怪物数量(1, MonsterRarity.Unique) >= 0",
               "Type": 0,
               "KeyV2": {
                 "ValueV2": {
                   "ControllerKey": "None",
                   "ControllerModifierKey": "None",
-                  "Key": "None",
+                  "Key": "T",
                   "Win": false
                 }
               },
@@ -345,8 +305,15 @@
             },
             {
               "RuleSource": "按键间隔(0.1) & \"<--距离上次按键间隔\" != \"\" &\n识别怪物().Any(m => m.DistanceToCursor <= 50 && m.IsAlive) &\n怪物数量(50, MonsterRarity.Unique) >= 0",
-              "Type": 1,
-              "KeyV2": null,
+              "Type": 0,
+              "KeyV2": {
+                "ValueV2": {
+                  "ControllerKey": "None",
+                  "ControllerModifierKey": "None",
+                  "Key": "None",
+                  "Win": false
+                }
+              },
               "SyntaxVersion": 1
             }
           ],
@@ -704,7 +671,7 @@
             "ValueV2": {
               "ControllerKey": "None",
               "ControllerModifierKey": "None",
-              "Key": "None",
+              "Key": "D4",
               "Win": false
             }
           },
@@ -712,11 +679,11 @@
             "ValueV2": {
               "ControllerKey": "None",
               "ControllerModifierKey": "None",
-              "Key": "None",
+              "Key": "D4",
               "Win": false
             }
           },
-          "Key": 0
+          "Key": 52
         },
         {
           "Rules": [
@@ -783,50 +750,10 @@
             }
           },
           "Key": 0
-        },
-        {
-          "Rules": [
-            {
-              "RuleSource": "!Skills[\"BarragePlayer\"].IsUsing &\nSkills[\"BarragePlayer\"].CanBeUsed &\n!识别怪物(30).Any(m => m.IsAlive)&\n按键间隔(0.1)",
-              "Type": 0,
-              "KeyV2": {
-                "ValueV2": {
-                  "ControllerKey": "None",
-                  "ControllerModifierKey": "None",
-                  "Key": "R",
-                  "Win": false
-                }
-              },
-              "SyntaxVersion": 1
-            }
-          ],
-          "Enabled": false,
-          "EnabledInTown": false,
-          "EnabledInHideout": true,
-          "EnabledInPeacefulAreas": false,
-          "EnabledInMaps": true,
-          "Name": "弹幕",
-          "KeyV2": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "D3",
-              "Win": false
-            }
-          },
-          "hotkeyNode": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "D3",
-              "Win": false
-            }
-          },
-          "Key": 51
         }
       ]
     },
-    "旋风:D4切换爆发": {
+    "旋风": {
       "Groups": [
         {
           "Rules": [
@@ -846,10 +773,10 @@
           ],
           "Enabled": true,
           "EnabledInTown": false,
-          "EnabledInHideout": true,
+          "EnabledInHideout": false,
           "EnabledInPeacefulAreas": false,
           "EnabledInMaps": true,
-          "Name": "喝血展开改数",
+          "Name": "喝血",
           "KeyV2": {
             "ValueV2": {
               "ControllerKey": "None",
@@ -886,10 +813,10 @@
           ],
           "Enabled": true,
           "EnabledInTown": false,
-          "EnabledInHideout": true,
+          "EnabledInHideout": false,
           "EnabledInPeacefulAreas": false,
           "EnabledInMaps": true,
-          "Name": "喝蓝展开改数",
+          "Name": "喝蓝",
           "KeyV2": {
             "ValueV2": {
               "ControllerKey": "None",
@@ -911,7 +838,47 @@
         {
           "Rules": [
             {
-              "RuleSource": "\"描述\"!=\"50范围无怪、无灵现、不满3层、不需放旋风\"&\n((Buffs.Has(\"spear_sandstorm_allies\")|!Buffs.Has(\"spear_sandstorm_allies\"))&\n(!Buffs.Has(\"vivid_wisp_buff\")|Buffs[\"spear_sandstorm_allies\"].FlaskSlot<6|!识别怪物(50).Any(m => m.IsAlive)))\n|\n!((Buffs.Has(\"skill_seals\")&Buffs[\"skill_seals\"].Charges>=4)&\nBuffs[\"spear_sandstorm_allies\"].FlaskSlot>=6&\n识别怪物(100).Any(m => m.IsAlive))  \n|\n!((Buffs.Has(\"skill_seals\")&Buffs[\"skill_seals\"].Charges>=6)&\nBuffs.Has(\"vivid_wisp_buff\")&\nBuffs[\"spear_sandstorm_allies\"].FlaskSlot>=6&\n(Skills[\"BarragePlayer\"].IsUsing| !Skills[\"BarragePlayer\"].CanBeUsed)&\n识别怪物(50).Any(m => m.IsAlive)&\n怪物数量(100, MonsterRarity.Unique) > 0)\n\n&识别怪物(1000).Any(m => m.IsAlive)\n&按键间隔(0.3)",
+              "RuleSource": "\"描述\"!=\"羽毛>=3、500范围有怪\"&\nBuffs[\"owl_feather\"].Charges>=3&\n!Buffs.Has(\"primal_bounty_buff\")&\n识别怪物(500).Any(m => m.IsAlive)&\n按键间隔(0.234)",
+              "Type": 0,
+              "KeyV2": {
+                "ValueV2": {
+                  "ControllerKey": "None",
+                  "ControllerModifierKey": "None",
+                  "Key": "Space",
+                  "Win": false
+                }
+              },
+              "SyntaxVersion": 1
+            }
+          ],
+          "Enabled": false,
+          "EnabledInTown": false,
+          "EnabledInHideout": false,
+          "EnabledInPeacefulAreas": false,
+          "EnabledInMaps": true,
+          "Name": "赏金",
+          "KeyV2": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          },
+          "hotkeyNode": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          },
+          "Key": 0
+        },
+        {
+          "Rules": [
+            {
+              "RuleSource": "\"描述\"!=\"赏金、范围有怪\"&\n!Buffs.Has(\"empower_barrage_visual\")&\n识别怪物(1000).Any(m => m.IsAlive)&\n按键间隔(0.1)",
               "Type": 0,
               "KeyV2": {
                 "ValueV2": {
@@ -929,12 +896,12 @@
           "EnabledInHideout": false,
           "EnabledInPeacefulAreas": false,
           "EnabledInMaps": true,
-          "Name": "回旋",
+          "Name": "弹幕",
           "KeyV2": {
             "ValueV2": {
               "ControllerKey": "None",
               "ControllerModifierKey": "None",
-              "Key": "D3",
+              "Key": "None",
               "Win": false
             }
           },
@@ -942,16 +909,16 @@
             "ValueV2": {
               "ControllerKey": "None",
               "ControllerModifierKey": "None",
-              "Key": "D3",
+              "Key": "None",
               "Win": false
             }
           },
-          "Key": 51
+          "Key": 0
         },
         {
           "Rules": [
             {
-              "RuleSource": "\"描述\"!=\"范围30内有怪\"&\n!Skills[\"BarragePlayer\"].IsUsing &\nSkills[\"BarragePlayer\"].CanBeUsed &\n识别怪物(100).Any(m => m.IsAlive)&\n按键间隔(0.1)",
+              "RuleSource": "\"描述\"!=\"赏金、弹幕、回旋3次、100范围有怪\"&\nBuffs.Has(\"primal_bounty_buff\")&\nBuffs.Has(\"empower_barrage_visual\")&\nBuffs[\"spear_sandstorm_allies\"].FlaskSlot>=9&\n识别怪物(100).Any(m => m.IsAlive)&\n按键间隔(0.1)",
               "Type": 0,
               "KeyV2": {
                 "ValueV2": {
@@ -969,12 +936,12 @@
           "EnabledInHideout": false,
           "EnabledInPeacefulAreas": false,
           "EnabledInMaps": true,
-          "Name": "弹幕",
+          "Name": "旋风",
           "KeyV2": {
             "ValueV2": {
               "ControllerKey": "None",
               "ControllerModifierKey": "None",
-              "Key": "D3",
+              "Key": "None",
               "Win": false
             }
           },
@@ -982,106 +949,19 @@
             "ValueV2": {
               "ControllerKey": "None",
               "ControllerModifierKey": "None",
-              "Key": "D3",
+              "Key": "None",
               "Win": false
             }
           },
-          "Key": 51
+          "Key": 0
         },
         {
           "Rules": [
             {
-              "RuleSource": "\"描述\"!=\"旋风4层、回旋3次、50范围有怪\"&\n(Buffs.Has(\"skill_seals\")&Buffs[\"skill_seals\"].Charges>=4)&\nBuffs[\"spear_sandstorm_allies\"].FlaskSlot>=6&\n识别怪物(100).Any(m => m.IsAlive)&\n按键间隔(0.1)",
-              "Type": 0,
-              "KeyV2": {
-                "ValueV2": {
-                  "ControllerKey": "None",
-                  "ControllerModifierKey": "None",
-                  "Key": "E",
-                  "Win": false
-                }
-              },
-              "SyntaxVersion": 1
-            }
-          ],
-          "Enabled": true,
-          "EnabledInTown": false,
-          "EnabledInHideout": false,
-          "EnabledInPeacefulAreas": false,
-          "EnabledInMaps": true,
-          "Name": "清图:旋风",
-          "KeyV2": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "D4",
-              "Win": false
-            }
-          },
-          "hotkeyNode": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "D4",
-              "Win": false
-            }
-          },
-          "Key": 52
-        },
-        {
-          "Rules": [
-            {
-              "RuleSource": "\"描述\"!=\"羽毛3层、旋风4层、范围有怪\"&\n(Buffs.Has(\"owl_feather\")&Buffs[\"owl_feather\"].Charges>=3)&\n识别怪物(100).Any(m => m.IsAlive)&\nBuffs[\"skill_seals\"].Charges>=4&\n按键间隔(0.1)",
-              "Type": 0,
-              "KeyV2": {
-                "ValueV2": {
-                  "ControllerKey": "None",
-                  "ControllerModifierKey": "None",
-                  "Key": "Space",
-                  "Win": false
-                }
-              },
-              "SyntaxVersion": 1
-            }
-          ],
-          "Enabled": true,
-          "EnabledInTown": false,
-          "EnabledInHideout": false,
-          "EnabledInPeacefulAreas": false,
-          "EnabledInMaps": true,
-          "Name": "清图:灵现",
-          "KeyV2": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "D4",
-              "Win": false
-            }
-          },
-          "hotkeyNode": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "D4",
-              "Win": false
-            }
-          },
-          "Key": 52
-        },
-        {
-          "Rules": [
-            {
-              "RuleSource": "\"描述\"!=\"旋风层数6、灵现Buff、回旋3次、弹幕、近距有怪\"&\n(Buffs.Has(\"skill_seals\")&Buffs[\"skill_seals\"].Charges>=6)&\nBuffs.Has(\"vivid_wisp_buff\")&\nBuffs[\"spear_sandstorm_allies\"].FlaskSlot>=6&\n(Skills[\"BarragePlayer\"].IsUsing| !Skills[\"BarragePlayer\"].CanBeUsed)&\n识别怪物(50).Any(m => m.IsAlive)&\n怪物数量(100, MonsterRarity.Unique) > 0&\n按键间隔(0.1)",
-              "Type": 0,
-              "KeyV2": {
-                "ValueV2": {
-                  "ControllerKey": "None",
-                  "ControllerModifierKey": "None",
-                  "Key": "E",
-                  "Win": false
-                }
-              },
-              "SyntaxVersion": 1
+              "RuleSource": "// 全局前置1：场景屏蔽 + 自动清空标记\nif (State.IsInTown || State.IsInHideout || State.IsAnyLargePanelOpen\n    || State.IsAnyFullscreenPanelOpen || State.IsInEscapeMenu\n    || State.IsChatOpen || State.NPC对话打开 || State.祭坛窗口打开 || State.符文窗口打开)\n{\n    // 切场景直接清空所有flag\n    return new ISideEffect[]\n    {\n        new ResetFlagSideEffect(\"弹幕\"),\n        new ResetFlagSideEffect(\"赏金\"),\n        new ResetFlagSideEffect(\"回旋延迟\")\n    };\n}\n\n// ==================== 基础数据读取 ====================\nbool 范围内50码有怪 = State.Monsters(50, ReAgent.State.MonsterRarity.Any).Any(m => m.IsAlive);\nbool 范围内100码有怪 = State.Monsters(100, ReAgent.State.MonsterRarity.Any).Any(m => m.IsAlive);\nbool 范围内300码有怪 = State.Monsters(300, ReAgent.State.MonsterRarity.Any).Any(m => m.IsAlive);\nbool 范围内1000码有怪 = State.Monsters(1000, ReAgent.State.MonsterRarity.Any).Any(m => m.IsAlive);\nbool 存在任意怪物 =  范围内50码有怪 || 范围内100码有怪 || 范围内300码有怪 || 范围内1000码有怪;\n\nbool 拥有猫头鹰羽毛buff = State.Buffs.Has(\"owl_feather\");\ndouble 猫头鹰实际层数 = 拥有猫头鹰羽毛buff ? State.Buffs[\"owl_feather\"].Charges : 0d;\nbool 猫头鹰达标 = 猫头鹰实际层数 >= 1d;\n\nbool 弹幕可释放 = State.Skills[\"BarragePlayer\"].CanBeUsed;\nbool 弹幕buff激活 = State.Buffs.Has(\"empower_barrage_visual\");\nbool 赏金buff激活 = State.Buffs[\"primal_bounty_buff\"].TimeLeft>0;\nbool 回旋斩达标 = State.Buffs[\"spear_sandstorm_allies\"].FlaskSlot >= 9;\n\n// 全局前置2：buff消失/无怪物时自动清理flag\nif (!弹幕buff激活 && !赏金buff激活 && State.IsFlagSet(\"弹幕\") && State.IsFlagSet(\"赏金\"))\n{\n    return new ISideEffect[]\n    {\n        new ResetFlagSideEffect(\"弹幕\"),\n        new ResetFlagSideEffect(\"赏金\")\n    };\n}\nif (!弹幕buff激活 && State.IsFlagSet(\"弹幕\"))\n{\n    return new ISideEffect[]\n    {\n        new ResetFlagSideEffect(\"弹幕\")\n    };\n}\nif (!赏金buff激活 && State.IsFlagSet(\"赏金\"))\n{\n    return new ISideEffect[]\n    {\n        new ResetFlagSideEffect(\"赏金\")\n    };\n}\n// 读取标记\nbool 弹幕操作 = State.IsFlagSet(\"弹幕\");\nbool 赏金操作 = State.IsFlagSet(\"赏金\");\nbool 回旋延迟 = State.IsFlagSet(\"回旋延迟\");\n\n\n// ==================== 优先级1：Q补弹幕 ====================\nif (!弹幕操作 && 弹幕可释放 && !弹幕buff激活 && 存在任意怪物)\n{\n    return new ISideEffect[]\n    {\n        new SetFlagSideEffect(\"弹幕\"),\n        new PressKeySideEffect(System.Windows.Forms.Keys.Q),\n        new SetFlagSideEffect(\"回旋延迟\")\n    };\n}\n\n// ==================== 优先级2：Space补赏金（限制3层猫头鹰） ====================\nif (!赏金操作 && 弹幕buff激活 && 猫头鹰实际层数 >= 3 && 范围内1000码有怪 && !范围内100码有怪)\n{\n    return new ISideEffect[]\n    {\n        new SetFlagSideEffect(\"赏金\"),\n        new PressKeySideEffect(System.Windows.Forms.Keys.Space),\n        new SetFlagSideEffect(\"回旋延迟\")\n    };\n}\nif (!赏金操作 && 弹幕buff激活 && 猫头鹰实际层数 >= 2 && 范围内300码有怪 && !范围内100码有怪)\n{\n    return new ISideEffect[]\n    {\n        new SetFlagSideEffect(\"赏金\"),\n        new PressKeySideEffect(System.Windows.Forms.Keys.Space),\n        new SetFlagSideEffect(\"回旋延迟\")\n    };\n}\nif (!赏金操作 && 弹幕buff激活 && 猫头鹰实际层数 >= 1 && 范围内100码有怪 && !范围内50码有怪)\n{\n    return new ISideEffect[]\n    {\n        new SetFlagSideEffect(\"赏金\"),\n        new PressKeySideEffect(System.Windows.Forms.Keys.Space),\n        new SetFlagSideEffect(\"回旋延迟\")\n    };\n}\n// ==================== 优先级3：R放旋风（增加flag防连发） ====================\nif ((弹幕buff激活 || 赏金buff激活) && 范围内100码有怪 && 回旋斩达标 && State.SinceLastActivation(0.1d))\n{\n    return new ISideEffect[]\n    {\n        new PressKeySideEffect(System.Windows.Forms.Keys.R),\n        new SetFlagSideEffect(\"回旋延迟\")\n    };\n}\n\n// ==================== 优先级4：E键叠层/赶路（无怪不触发） ====================\nif (回旋延迟 && State.SinceLastActivation(0.1d))\n{\n    return new ISideEffect[]\n    {\n        new DelayedSideEffect(0.2d, () => new ISideEffect[]\n        {\n            new PressKeySideEffect(System.Windows.Forms.Keys.E),\n            new ResetFlagSideEffect(\"回旋延迟\")\n        })\n    };\n}\nif (State.SinceLastActivation(0.1d))\n{\n    return new ISideEffect[]\n    {\n        new PressKeySideEffect(System.Windows.Forms.Keys.E)\n    };\n}\n// 无操作\nreturn null;",
+              "Type": 2,
+              "KeyV2": null,
+              "SyntaxVersion": 2
             }
           ],
           "Enabled": false,
@@ -1089,12 +969,12 @@
           "EnabledInHideout": false,
           "EnabledInPeacefulAreas": false,
           "EnabledInMaps": true,
-          "Name": "爆发:旋风",
+          "Name": "全自动旋风",
           "KeyV2": {
             "ValueV2": {
               "ControllerKey": "None",
               "ControllerModifierKey": "None",
-              "Key": "D4",
+              "Key": "None",
               "Win": false
             }
           },
@@ -1102,51 +982,11 @@
             "ValueV2": {
               "ControllerKey": "None",
               "ControllerModifierKey": "None",
-              "Key": "D4",
+              "Key": "None",
               "Win": false
             }
           },
-          "Key": 52
-        },
-        {
-          "Rules": [
-            {
-              "RuleSource": "\"描述\"!=\"羽毛3层、旋风6层、范围有怪\"&\n(Buffs.Has(\"owl_feather\")&Buffs[\"owl_feather\"].Charges>=3)&\nSkills[\"BarragePlayer\"].IsUsing &\nBuffs[\"skill_seals\"].Charges>=6&\n识别怪物(50).Any(m => m.IsAlive)&\n怪物数量(100, MonsterRarity.Unique) > 0&\n按键间隔(0.1)",
-              "Type": 0,
-              "KeyV2": {
-                "ValueV2": {
-                  "ControllerKey": "None",
-                  "ControllerModifierKey": "None",
-                  "Key": "Space",
-                  "Win": false
-                }
-              },
-              "SyntaxVersion": 1
-            }
-          ],
-          "Enabled": false,
-          "EnabledInTown": false,
-          "EnabledInHideout": false,
-          "EnabledInPeacefulAreas": false,
-          "EnabledInMaps": true,
-          "Name": "爆发:灵现",
-          "KeyV2": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "D4",
-              "Win": false
-            }
-          },
-          "hotkeyNode": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "D4",
-              "Win": false
-            }
-          },
-          "Key": 52
+          "Key": 0
         }
       ]
     }

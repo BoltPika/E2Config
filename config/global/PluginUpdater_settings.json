@@ -9,5 +9,9 @@
         "Win": false
       }
     }
-  }
+  },
+  "CheckUpdatesOnStartup": false,
+  "AutoCheckUpdates": false,
+  "WrapLogMessages": true,
+  "UpdateCheckIntervalMinutes": 60
 }

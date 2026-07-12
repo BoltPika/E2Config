@@ -20,6 +20,38 @@
   "TargetPlayerName": {
     "Value": ""
   },
+  "TogglePauseHotkey": {
+    "Value": 19
+  },
+  "IsPaused": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "FollowDistance": {
+    "Value": 460
+  },
+  "MaxFollowDistance": {
+    "Value": 3000
+  },
+  "TargetMin": {
+    "Value": 10
+  },
+  "TargetMax": {
+    "Value": 50
+  },
+  "ActionCooldown": {
+    "Value": 50
+  },
+  "ActionCooldownMax": {
+    "Value": 150
+  },
   "UsingCheckpoint": {
     "Value": false,
     "AttachedHotkey": {
@@ -42,44 +74,26 @@
       }
     }
   },
-  "FollowDistance": {
-    "Value": 460
-  },
-  "TargetMin": {
-    "Value": 10
-  },
-  "TargetMax": {
-    "Value": 50
-  },
-  "ActionCooldown": {
-    "Value": 50
-  },
-  "ActionCooldownMax": {
-    "Value": 150
-  },
-  "NoSpace": {
-    "Value": false,
-    "AttachedHotkey": {
-      "ValueV2": {
-        "ControllerKey": "None",
-        "ControllerModifierKey": "None",
-        "Key": "None",
-        "Win": false
+  "PathMove": {
+    "Enable": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
       }
-    }
-  },
-  "TogglePauseHotkey": {
-    "Value": 51
-  },
-  "IsPaused": {
-    "Value": false,
-    "AttachedHotkey": {
-      "ValueV2": {
-        "ControllerKey": "None",
-        "ControllerModifierKey": "None",
-        "Key": "None",
-        "Win": false
-      }
+    },
+    "PathMoveErroDistance": {
+      "Value": 20
+    },
+    "PathMoveErroCount": {
+      "Value": 3
+    },
+    "PathMoveDistance": {
+      "Value": 3
     }
   },
   "Additional": {
@@ -182,10 +196,161 @@
     "ESKey": {
       "Value": 49
     },
+    "Ward": {
+      "Value": 50
+    },
+    "WardKey": {
+      "Value": 49
+    },
     "Mana": {
       "Value": 50
     },
     "ManaKey": {
+      "Value": 50
+    }
+  },
+  "Skill": {
+    "Enable": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "Group1": {
+      "Enable": {
+        "Value": false,
+        "AttachedHotkey": {
+          "ValueV2": {
+            "ControllerKey": "None",
+            "ControllerModifierKey": "None",
+            "Key": "None",
+            "Win": false
+          }
+        }
+      },
+      "Cooldown": {
+        "Value": 1000
+      },
+      "SkillKey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "Q",
+          "Win": false
+        }
+      }
+    },
+    "Group2": {
+      "Enable": {
+        "Value": false,
+        "AttachedHotkey": {
+          "ValueV2": {
+            "ControllerKey": "None",
+            "ControllerModifierKey": "None",
+            "Key": "None",
+            "Win": false
+          }
+        }
+      },
+      "Cooldown": {
+        "Value": 1000
+      },
+      "SkillKey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "Q",
+          "Win": false
+        }
+      }
+    },
+    "Group3": {
+      "Enable": {
+        "Value": false,
+        "AttachedHotkey": {
+          "ValueV2": {
+            "ControllerKey": "None",
+            "ControllerModifierKey": "None",
+            "Key": "None",
+            "Win": false
+          }
+        }
+      },
+      "Cooldown": {
+        "Value": 1000
+      },
+      "SkillKey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "Q",
+          "Win": false
+        }
+      }
+    },
+    "Group4": {
+      "Enable": {
+        "Value": false,
+        "AttachedHotkey": {
+          "ValueV2": {
+            "ControllerKey": "None",
+            "ControllerModifierKey": "None",
+            "Key": "None",
+            "Win": false
+          }
+        }
+      },
+      "Cooldown": {
+        "Value": 1000
+      },
+      "SkillKey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "Q",
+          "Win": false
+        }
+      }
+    },
+    "Group5": {
+      "Enable": {
+        "Value": false,
+        "AttachedHotkey": {
+          "ValueV2": {
+            "ControllerKey": "None",
+            "ControllerModifierKey": "None",
+            "Key": "None",
+            "Win": false
+          }
+        }
+      },
+      "Cooldown": {
+        "Value": 1000
+      },
+      "SkillKey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "Q",
+          "Win": false
+        }
+      }
+    },
+    "PreDelayMin": {
+      "Value": 10
+    },
+    "PreDelayMax": {
+      "Value": 50
+    },
+    "PostDelayMin": {
+      "Value": 10
+    },
+    "PostDelayMax": {
       "Value": 50
     }
   },
@@ -208,5 +373,74 @@
       "Value": 80
     },
     "ManualCleanup": {}
+  },
+  "PathDraw": {
+    "Enable": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "PathColor": "00ff00ff",
+    "PathThickness": {
+      "Value": 2
+    },
+    "DrawEveryNthSegment": {
+      "Value": 2
+    },
+    "ShowTargetName": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "TargetNameColor": "ffffffff",
+    "EnableTargetNameBackground": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    }
+  },
+  "PartyCensor": {
+    "Enable": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "ShowLevel": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "LevelTextColor": "ffffffff",
+    "BackgroundColor": "000000ff"
   }
 }

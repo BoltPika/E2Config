@@ -49,7 +49,7 @@
       }
     }
   },
-  "TerrainColor": "ffffffa1",
+  "TerrainColor": "ffffffff",
   "MaximumMapTextureDimension": {
     "Value": 4096
   },
@@ -128,16 +128,84 @@
           }
         }
       },
-      "TargetNameColor": "ee82eeff"
+      "TargetNameColor": "ee82eeff",
+      "TargetCategoryFilter": {
+        "ShowTemple": {
+          "Value": true,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        },
+        "ShowBreach": {
+          "Value": true,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        },
+        "ShowAbyss": {
+          "Value": true,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        },
+        "ShowLeagueMechanic": {
+          "Value": true,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        },
+        "ShowRitual": {
+          "Value": true,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        },
+        "ShowOther": {
+          "Value": true,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        }
+      }
     },
     "WorldPathSettings": {
       "ShowPathsToTargets": {
-        "Value": false,
+        "Value": true,
         "AttachedHotkey": {
           "ValueV2": {
             "ControllerKey": "None",
             "ControllerModifierKey": "None",
-            "Key": "Oem3",
+            "Key": "Delete",
             "Win": false
           }
         }
@@ -391,13 +459,13 @@
     },
     "AlternativeEdgeSettings": {
       "OutlineBlurSigma": {
-        "Value": 1.0
+        "Value": 0.438
       },
       "OutlineTransitionThreshold": {
-        "Value": 0.5
+        "Value": 0.07
       },
       "OutlineFeatherWidth": {
-        "Value": 0.5
+        "Value": 0.07
       }
     },
     "StandardEdgeSettings": {
@@ -447,7 +515,7 @@
       }
     },
     "IgnoreFullscreenPanels": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -458,7 +526,7 @@
       }
     },
     "IgnoreLargePanels": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",

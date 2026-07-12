@@ -1,76 +1,4 @@
 {
-  "IgnoredCells": [
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ],
-    [
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      true,
-      true
-    ]
-  ],
   "Enable": {
     "Value": true,
     "AttachedHotkey": {
@@ -82,7 +10,7 @@
       }
     }
   },
-  "DumpButtonEnable": {
+  "OverlayEnabled": {
     "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
@@ -93,7 +21,7 @@
       }
     }
   },
-  "ShowStackSizes": {
+  "HighlightImportantAffixes": {
     "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
@@ -104,7 +32,73 @@
       }
     }
   },
-  "ShowStackCountWithSize": {
+  "HighlightMonsterEffectiveness": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "HighlightItemRarity": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "HighlightMonsterPackSize": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "HighlightMonsterRarity": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "HighlightWaystoneDropChance": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ShowAffixCountBadge": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ShowImportantAffixBadges": {
     "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
@@ -115,10 +109,51 @@
       }
     }
   },
-  "MoveToInventoryHotkey": {
-    "Value": 0
+  "EnableBorderRules": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
   },
-  "UseMoveToInventoryAsMoveToStashWhenNoHighlights": {
+  "EnableAffixGroups": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ShowAffixGroupBadges": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "HideWhenTooltipOverItem": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "LogMatchedMaps": {
     "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
@@ -129,10 +164,7 @@
       }
     }
   },
-  "MoveToStashHotkey": {
-    "Value": 0
-  },
-  "InvertSelection": {
+  "LogScannedMapSamples": {
     "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
@@ -143,7 +175,7 @@
       }
     }
   },
-  "ShowCustomFilterWindow": {
+  "LogPerformance": {
     "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
@@ -154,128 +186,61 @@
       }
     }
   },
-  "ResetCustomFilterOnPanelClose": {
-    "Value": false,
-    "AttachedHotkey": {
-      "ValueV2": {
-        "ControllerKey": "None",
-        "ControllerModifierKey": "None",
-        "Key": "None",
-        "Win": false
-      }
-    }
+  "ScanIntervalMs": {
+    "Value": 650
   },
-  "UsePopupForFilterSelector": {
-    "Value": false,
-    "AttachedHotkey": {
-      "ValueV2": {
-        "ControllerKey": "None",
-        "ControllerModifierKey": "None",
-        "Key": "None",
-        "Win": false
-      }
-    }
-  },
-  "CustomFilterFrameThickness": {
-    "Value": 2
-  },
-  "CustomFilterFrameColor": "ee82eeff",
-  "CustomFilterBorderRounding": {
-    "Value": 0.0
-  },
-  "CustomFilterBorderDeflation": {
+  "TargetAffixCount": {
     "Value": 8
   },
-  "ExtraDelay": {
-    "Value": 20
+  "BorderThickness": {
+    "Value": 3
   },
-  "GuildExtraDelay": {
-    "Value": 150
+  "BadgeScale": {
+    "Value": 0.9
   },
-  "OfflineExtraDelay": {
-    "Value": 100
-  },
-  "UseThreadSleep": {
-    "Value": false,
-    "AttachedHotkey": {
-      "ValueV2": {
-        "ControllerKey": "None",
-        "ControllerModifierKey": "None",
-        "Key": "None",
-        "Win": false
-      }
+  "AffixCountBadgeColor": "00bfffff",
+  "MonsterEffectivenessColor": "ff0000ff",
+  "ItemRarityColor": "ffa500ff",
+  "MonsterPackSizeColor": "32cd32ff",
+  "MonsterRarityColor": "00bfffff",
+  "WaystoneDropChanceColor": "ffd700ff",
+  "BadgeBackgroundColor": "000000dc",
+  "BadgeTextColor": "ffffffff",
+  "AffixGroups": [
+    {
+      "Id": "6775ff93a55340f8be25a8041cced402",
+      "Name": "效用+怪物稀有度",
+      "Enabled": true,
+      "MinimumMatchedAffixes": 5,
+      "ColorArgb": -16728065,
+      "SelectedAffixIds": [
+        "MapMonsterDamageAsFire",
+        "MapMonsterBleeding",
+        "MapMonsterStunBuildup",
+        "MapSpreadBurningGround",
+        "MapMonsterStunAilmentThreshold",
+        "MapMonsterLifeIncrease",
+        "MapMonsterDamageIncrease",
+        "MapMonsterArmoured",
+        "MapMonsterArmourBreak",
+        "MapMonstersBaseSelfCriticalMultiplier"
+      ],
+      "Color": "0, 191, 255"
     }
-  },
-  "IdleMouseDelay": {
-    "Value": 200
-  },
-  "CancelWithRightMouseButton": {
-    "Value": true,
-    "AttachedHotkey": {
-      "ValueV2": {
-        "ControllerKey": "None",
-        "ControllerModifierKey": "None",
-        "Key": "None",
-        "Win": false
-      }
+  ],
+  "BorderRules": [
+    {
+      "Id": "862caa6623c5410dbf66dd72ef8ae27d",
+      "Name": "边框规则 1",
+      "Enabled": true,
+      "RequireTargetAffixCount": false,
+      "MinimumMatches": 1,
+      "ColorArgb": -13447886,
+      "SelectedGeneratedStatIds": [],
+      "GeneratedStatThresholds": {},
+      "TotalStatsThreshold": 0,
+      "SelectedAffixGroupIds": [],
+      "Color": "50, 205, 50"
     }
-  },
-  "VerifyTargetInventoryIsOpened": {
-    "Value": true,
-    "AttachedHotkey": {
-      "ValueV2": {
-        "ControllerKey": "None",
-        "ControllerModifierKey": "None",
-        "Key": "None",
-        "Win": false
-      }
-    }
-  },
-  "VerifyButtonIsNotObstructed": {
-    "Value": true,
-    "AttachedHotkey": {
-      "ValueV2": {
-        "ControllerKey": "None",
-        "ControllerModifierKey": "None",
-        "Key": "None",
-        "Win": false
-      }
-    }
-  },
-  "UseCustomMoveToStashButtonPosition": {
-    "Value": false,
-    "AttachedHotkey": {
-      "ValueV2": {
-        "ControllerKey": "None",
-        "ControllerModifierKey": "None",
-        "Key": "None",
-        "Win": false
-      }
-    }
-  },
-  "CustomMoveToStashButtonPosition": {
-    "Value": {
-      "X": 0.0,
-      "Y": 0.0
-    }
-  },
-  "UseCustomMoveToInventoryButtonPosition": {
-    "Value": false,
-    "AttachedHotkey": {
-      "ValueV2": {
-        "ControllerKey": "None",
-        "ControllerModifierKey": "None",
-        "Key": "None",
-        "Win": false
-      }
-    }
-  },
-  "CustomMoveToInventoryButtonPosition": {
-    "Value": {
-      "X": 0.0,
-      "Y": 0.0
-    }
-  },
-  "SavedFilters": [],
-  "OpenSavedFilterList": true
+  ]
 }

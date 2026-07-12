@@ -74,6 +74,44 @@
         "Win": false
       }
     },
+    "UseTranOnMagicWaystones": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "TranHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "F2",
+        "Win": false
+      }
+    },
+    "UseAugmOnMagicWaystones": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "AugmHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "F2",
+        "Win": false
+      }
+    },
     "UseRegalOnMagicWaystones": {
       "Value": false,
       "AttachedHotkey": {

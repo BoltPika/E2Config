@@ -1,0 +1,1064 @@
+{
+  "Enable": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "OverlayEnabled": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ShowGroupLabel": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ShowUsesLeft": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "HideWhenTooltipOverItem": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "HighlightMode": 0,
+  "LabelTextMode": 1,
+  "LabelBackgroundEnabled": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "LabelOutlineEnabled": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "LabelBackgroundAlpha": {
+    "Value": 170
+  },
+  "SmoothUiRefresh": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "FastRefreshIntervalMs": {
+    "Value": 60
+  },
+  "ScanIntervalMs": {
+    "Value": 30
+  },
+  "ItemsPerTick": {
+    "Value": 20
+  },
+  "BorderThickness": {
+    "Value": 3
+  },
+  "LabelScale": {
+    "Value": 1.0
+  },
+  "LogSeenMods": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "UseDirectSpecialStashPath": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "AllowSpecialStashDeepFallback": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "TabletTypes": [
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": [
+        {
+          "Id": "2025cc975b604713b350f3fb2232b2a4",
+          "Name": "词缀",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 1,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -16728065,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "TowerMapAdditionalModifier"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        },
+        {
+          "Id": "698e98c48e4a4cafa96d9846abc115ab",
+          "Name": "其他",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 3,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -13447886,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "UniqueBiomeTabletMountain",
+            "UniqueBiomeTabletForest",
+            "UniqueBiomeTabletWater",
+            "TowerMapAdditionalUniqueMonsterModifier",
+            "TowerMonsterRarityIncrease",
+            "TowerAdditionalExile",
+            "TowerDroppedItemRarityIncrease",
+            "TowerRarePackIncrease",
+            "TowerAdditionalStrongboxChance",
+            "TowerAdditionalSpiritChance",
+            "TowerAdditionalStrongbox",
+            "TowerAdditionalStoneCircle",
+            "TowerPackSizeIncrease",
+            "TowerMapAdditionalModifier",
+            "TowerMonsterEffectiveness",
+            "TowerRareMonsterSurpassing"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        }
+      ]
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": [
+        {
+          "Id": "5cd7f83a1fc44315be935e7198394189",
+          "Name": "词缀",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 1,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -16728065,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "TowerMapAdditionalModifier"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        },
+        {
+          "Id": "4da09990cba045d38fbe6830a286d6ce",
+          "Name": "稀有1",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 2,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -13447886,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "TowerBreachAdditionalRares",
+            "TowerMonsterEffectiveness"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        },
+        {
+          "Id": "93c79b6f042d4fb8902a03366ac2d20f",
+          "Name": "稀有2",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 2,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -10496,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "TowerBreachAdditionalRares",
+            "TowerBreachRareMonsterPotency"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        },
+        {
+          "Id": "4c72890c727b45b287742a324e8ae3b4",
+          "Name": "其他",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 3,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -47872,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "UniqueTowerBreachDensityIncrease",
+            "TowerBreachBossChance",
+            "TowerBreachAdditionalRares",
+            "TowerBreachHivebloodQuantity",
+            "TowerBreachWombgiftQuantity",
+            "TowerBreachRareMonsterPotency",
+            "TowerBreachMonsterQuantity",
+            "TowerBreachWombgiftLevelChance",
+            "TowerMapAdditionalUniqueMonsterModifier",
+            "TowerMonsterRarityIncrease",
+            "TowerAdditionalExile",
+            "TowerDroppedItemRarityIncrease",
+            "TowerRarePackIncrease",
+            "TowerAdditionalStrongboxChance",
+            "TowerStoneCircleChance",
+            "TowerAdditionalExileChance",
+            "TowerAdditionalSpiritChance",
+            "TowerAdditionalStrongbox",
+            "TowerAdditionalStoneCircle",
+            "TowerAdditionalAzmeriWisp",
+            "TowerPackSizeIncrease",
+            "TowerMapAdditionalModifier",
+            "TowerMonsterEffectiveness",
+            "TowerRareMonsterSurpassing",
+            "UniqueBreachUnstableAdditionalRares"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        }
+      ]
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": [
+        {
+          "Id": "8570a65613df46b5b5b570e65e106073",
+          "Name": "词缀",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 1,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -16728065,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "TowerMapAdditionalModifier"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        },
+        {
+          "Id": "449c944a057c464bba086caa1b849455",
+          "Name": "其他",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 4,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -13447886,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "UniqueDeliriumEndlessFog",
+            "UniqueDeliriumDifficultyIncrease",
+            "TowerDeliriumPackSizeIncrease",
+            "TowerDeliriumMonsterSplinterIncrease",
+            "TowerDeliriumDifficultyIncrease",
+            "TowerDeliriumDoodadsIncrease",
+            "TowerDeliriumAdditionalShardsChance",
+            "TowerDeliriumBossChance",
+            "TowerMapAdditionalUniqueMonsterModifier",
+            "TowerMonsterRarityIncrease",
+            "TowerAdditionalExile",
+            "TowerDroppedItemRarityIncrease",
+            "TowerRarePackIncrease",
+            "TowerAdditionalStrongboxChance",
+            "TowerStoneCircleChance",
+            "TowerAdditionalExileChance",
+            "TowerAdditionalStrongbox",
+            "TowerPackSizeIncrease",
+            "TowerMapAdditionalModifier",
+            "TowerMonsterEffectiveness",
+            "TowerRareMonsterSurpassing"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        },
+        {
+          "Id": "1c6eeee3a73544b0b668b503eeaa0f94",
+          "Name": "碎片",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 2,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -10496,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "TowerDeliriumMonsterSplinterIncrease",
+            "TowerDeliriumDoodadsIncrease"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        }
+      ]
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": [
+        {
+          "Id": "7f1b295e35b9410fb8ca74417761de5e",
+          "Name": "词缀",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 1,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -16728065,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "TowerMapAdditionalModifier"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        },
+        {
+          "Id": "952f7cbdfac949c2b30b4eb891070ab5",
+          "Name": "其他",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 3,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -13447886,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "TowerAbyssAdditionalChance",
+            "TowerAbyss4AdditionalChance",
+            "TowerAbyssEffectivenessPerChasm",
+            "TowerAbyssRareMonsterIncrease",
+            "TowerAbyssExtraModifiers",
+            "TowerAbyssExtraTickets",
+            "TowerAbyssMonsterIncrease",
+            "TowerMapAdditionalUniqueMonsterModifier",
+            "TowerMonsterRarityIncrease",
+            "TowerAdditionalExile",
+            "TowerDroppedItemRarityIncrease",
+            "TowerRarePackIncrease",
+            "TowerAdditionalStrongboxChance",
+            "TowerStoneCircleChance",
+            "TowerAdditionalExileChance",
+            "TowerAdditionalStrongbox",
+            "TowerAdditionalStoneCircle",
+            "TowerAdditionalAzmeriWisp",
+            "TowerPackSizeIncrease",
+            "TowerMapAdditionalModifier",
+            "TowerMonsterEffectiveness",
+            "TowerRareMonsterSurpassing"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        }
+      ]
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": [
+        {
+          "Id": "0968c718ca0f4e8eb942cc956d625dcc",
+          "Name": "词缀",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 1,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -16728065,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "TowerMapAdditionalModifier",
+            "TowerRitualAdditionalRerolls"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        },
+        {
+          "Id": "2d4cd148141141cb904adb353c3b51fe",
+          "Name": "其他",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 3,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -13447886,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "UniqueRitualUnlimitedRerolls",
+            "UniqueRitualTributeCostIncrease",
+            "TowerRitualRerollCostIncrease",
+            "TowerRitualDeferSpeed",
+            "TowerRitualDeferCostIncrease",
+            "TowerRitualOmenChance",
+            "TowerRitualAdditionalRerolls",
+            "TowerRitualMagicMonsters",
+            "TowerRitualTributeIncrease",
+            "TowerMapAdditionalUniqueMonsterModifier",
+            "TowerMonsterRarityIncrease",
+            "TowerDroppedItemRarityIncrease",
+            "TowerRarePackIncrease",
+            "TowerAdditionalStrongboxChance",
+            "TowerPackSizeIncrease",
+            "TowerMapAdditionalModifier",
+            "TowerMonsterEffectiveness",
+            "TowerRareMonsterSurpassing"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        }
+      ]
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": [
+        {
+          "Id": "be99457e2eea4620b3a499265da2f80e",
+          "Name": "词缀",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 1,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -16728065,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "TowerMapAdditionalModifier"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        },
+        {
+          "Id": "c0818b8aee384e6eab0be743d44de954",
+          "Name": "其他",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 3,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -13447886,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "UniqueMapBossAdditionalModifier",
+            "UniqueMapBossPossession",
+            "TowerMapBossWaystoneChance",
+            "TowerMapBossQuantity",
+            "TowerMapBossRarity",
+            "TowerMapAdditionalUniqueMonsterModifier",
+            "TowerMonsterRarityIncrease",
+            "TowerDroppedItemRarityIncrease",
+            "TowerRarePackIncrease",
+            "TowerAdditionalStrongboxChance",
+            "TowerPackSizeIncrease",
+            "TowerMapAdditionalModifier",
+            "TowerMonsterEffectiveness",
+            "TowerRareMonsterSurpassing"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        }
+      ]
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": [
+        {
+          "Id": "37dec7901ea043b4849562370d926a26",
+          "Name": "词缀",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 1,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -16728065,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "TowerMapAdditionalModifier"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        },
+        {
+          "Id": "ea1ee3b27f5743d283feb7043f5ebf21",
+          "Name": "其他",
+          "Enabled": true,
+          "MinimumMatchedBonuses": 4,
+          "MinimumUsesLeft": 1,
+          "ColorArgb": -13447886,
+          "HighlightPriority": false,
+          "SelectedBonusIds": [
+            "TowerIncursionTokenChance",
+            "TowerIncursionBossChance",
+            "TowerIncursionExtraPacks",
+            "TowerIncursionPackSize",
+            "TowerIncursionExtraPacksChance",
+            "TowerIncursionRareChestChance",
+            "TowerIncursionSecondaryEncounters",
+            "TowerMapAdditionalUniqueMonsterModifier",
+            "TowerMonsterRarityIncrease",
+            "TowerDroppedItemRarityIncrease",
+            "TowerRarePackIncrease",
+            "TowerAdditionalStrongboxChance",
+            "TowerPackSizeIncrease",
+            "TowerMapAdditionalModifier",
+            "TowerMonsterEffectiveness",
+            "TowerRareMonsterSurpassing"
+          ],
+          "RequiredBonusIds": [],
+          "MinimumRequiredBonuses": 1,
+          "ExcludedBonusIds": []
+        }
+      ]
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    }
+  ]
+}

@@ -1,0 +1,4011 @@
+{
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "InterfaceLanguage": {
+    "Value": "tw"
+  },
+  "General": {
+    "IsFollowEnabled": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "ToggleFollower": {
+      "Value": 33
+    },
+    "PanicPauseHotkey": {
+      "Value": 19
+    },
+    "LeaderName": {
+      "Value": ""
+    },
+    "MovementKey": {
+      "Value": 84
+    },
+    "PauseWhenInventoryOpen": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "IsCloseFollowEnabled": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "PathfindingNodeDistance": {
+      "Value": 200
+    },
+    "BotInputFrequency": {
+      "Value": 90
+    },
+    "ClearPathDistance": {
+      "Value": 500
+    },
+    "RandomClickOffset": {
+      "Value": 10
+    },
+    "AntiStuckWatchdog": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "AntiStuckNoProgressMs": {
+      "Value": 4500
+    },
+    "AntiStuckMinProgressDistance": {
+      "Value": 35
+    },
+    "IsSprintEnabled": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "DodgeSprintKey": {
+      "Value": 83
+    },
+    "SprintDistanceThreshold": {
+      "Value": 500
+    },
+    "SprintRetriggerCooldownMs": {
+      "Value": 5000
+    }
+  },
+  "TpTrade": {
+    "AutoAcceptParty": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "AutoAcceptTrade": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "AutoDumpInventoryToTrade": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "AutoAcceptTradeAfterDump": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "TradeDumpIgnoredCells": [
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "TradeDumpItemDelayMs": {
+      "Value": 65
+    },
+    "TradeDumpAcceptDelayMs": {
+      "Value": 1600
+    },
+    "TradeDumpWindowWaitTimeoutMs": {
+      "Value": 10000
+    },
+    "TradeDumpFinishTimeoutMs": {
+      "Value": 60000
+    },
+    "AutoPartyPollMs": {
+      "Value": 500
+    },
+    "TeleportToLeader": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "AutoConfirmTeleportDialog": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "TpPollMs": {
+      "Value": 800
+    },
+    "TpMaxRetries": {
+      "Value": 3
+    },
+    "StopAfterHideoutTeleport": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "TeleportFromHideout": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "TpConfirmTimeoutMs": {
+      "Value": 2500
+    },
+    "TpConfirmRetries": {
+      "Value": 2
+    }
+  },
+  "PartyChatLeaderCommands": {
+    "Enabled": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "StopCommand": {
+      "Value": "-p"
+    },
+    "StartCommand": {
+      "Value": "-s"
+    },
+    "PausePluginCommand": {
+      "Value": "-pp"
+    },
+    "ResumePluginCommand": {
+      "Value": "-ss"
+    },
+    "DumpInventoryCommand": {
+      "Value": "-d"
+    },
+    "StartPickUpCommand": {
+      "Value": "-l"
+    },
+    "PausePickUpCommand": {
+      "Value": "-ls"
+    },
+    "PollMs": {
+      "Value": 1000
+    }
+  },
+  "PickUp": {
+    "Enabled": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "PickUpEverything": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "RespectItemAllocation": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "DisableInTownOrHideout": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "RequireLeaderNearbyToStart": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "MaxDistanceFromLeaderToStart": {
+      "Value": 650
+    },
+    "ItemPickupRange": {
+      "Value": 700
+    },
+    "ItemClickDistance": {
+      "Value": 80
+    },
+    "ScanIntervalMs": {
+      "Value": 250
+    },
+    "PauseBetweenClicksMs": {
+      "Value": 140
+    },
+    "MaxAttemptsPerItem": {
+      "Value": 3
+    },
+    "FailedItemBlacklistMs": {
+      "Value": 12000
+    },
+    "MaxActivePickupMs": {
+      "Value": 6500
+    },
+    "MinimumFreeInventorySlots": {
+      "Value": 2
+    },
+    "NoPickupWhileEnemyClose": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "MonsterCheckRange": {
+      "Value": 800
+    },
+    "DebugHighlight": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "RuleCategories": [
+      {
+        "Name": "Currency",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Mirror of Kalandra",
+            "Expression": "BaseName == \"Mirror of Kalandra\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Hinekora's Lock",
+            "Expression": "BaseName == \"Hinekora's Lock\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Fracturing Orb",
+            "Expression": "BaseName == \"Fracturing Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Chaos Orb",
+            "Expression": "BaseName == \"Perfect Chaos Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Exalted Orb",
+            "Expression": "BaseName == \"Perfect Exalted Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Divine Orb",
+            "Expression": "BaseName == \"Divine Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Orb of Annulment",
+            "Expression": "BaseName == \"Orb of Annulment\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Jeweller's Orb",
+            "Expression": "BaseName == \"Perfect Jeweller's Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Chaos Orb",
+            "Expression": "BaseName == \"Greater Chaos Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Cryptic Key",
+            "Expression": "BaseName == \"Cryptic Key\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Chaos Orb",
+            "Expression": "BaseName == \"Chaos Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Regal Orb",
+            "Expression": "BaseName == \"Perfect Regal Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Orb of Augmentation",
+            "Expression": "BaseName == \"Perfect Orb of Augmentation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Orb of Transmutation",
+            "Expression": "BaseName == \"Perfect Orb of Transmutation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Orb of Chance",
+            "Expression": "BaseName == \"Orb of Chance\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Exalted Orb",
+            "Expression": "BaseName == \"Greater Exalted Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Vaal Orb",
+            "Expression": "BaseName == \"Vaal Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Gemcutter's Prism",
+            "Expression": "BaseName == \"Gemcutter's Prism\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Regal Orb",
+            "Expression": "BaseName == \"Greater Regal Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Arcanist's Etcher",
+            "Expression": "BaseName == \"Arcanist's Etcher\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Jeweller's Orb",
+            "Expression": "BaseName == \"Greater Jeweller's Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Armourer's Scrap",
+            "Expression": "BaseName == \"Armourer's Scrap\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Glassblower's Bauble",
+            "Expression": "BaseName == \"Glassblower's Bauble\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Orb of Augmentation",
+            "Expression": "BaseName == \"Orb of Augmentation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Orb of Augmentation",
+            "Expression": "BaseName == \"Greater Orb of Augmentation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Orb of Transmutation",
+            "Expression": "BaseName == \"Orb of Transmutation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Orb of Transmutation",
+            "Expression": "BaseName == \"Greater Orb of Transmutation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Regal Orb",
+            "Expression": "BaseName == \"Regal Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Exalted Orb",
+            "Expression": "BaseName == \"Exalted Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Orb of Alchemy",
+            "Expression": "BaseName == \"Orb of Alchemy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Artificer's Orb",
+            "Expression": "BaseName == \"Artificer's Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Jeweller's Orb",
+            "Expression": "BaseName == \"Lesser Jeweller's Orb\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Transmutation Shard",
+            "Expression": "BaseName == \"Transmutation Shard\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Regal Shard",
+            "Expression": "BaseName == \"Regal Shard\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Artificer's Shard",
+            "Expression": "BaseName == \"Artificer's Shard\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Chance Shard",
+            "Expression": "BaseName == \"Chance Shard\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Blacksmith's Whetstone",
+            "Expression": "BaseName == \"Blacksmith's Whetstone\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Scroll of Wisdom",
+            "Expression": "BaseName == \"Scroll of Wisdom\""
+          }
+        ]
+      },
+      {
+        "Name": "Fragments",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "The Trialmaster's Reliquary Key",
+            "Expression": "BaseName == \"The Trialmaster's Reliquary Key\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Azmeri Reliquary Key",
+            "Expression": "BaseName == \"Azmeri Reliquary Key\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Zarokh's Reliquary Key: Against the Darkness",
+            "Expression": "BaseName == \"Zarokh's Reliquary Key: Against the Darkness\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Xesht's Reliquary Key",
+            "Expression": "BaseName == \"Xesht's Reliquary Key\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Tangmazu's Reliquary Key",
+            "Expression": "BaseName == \"Tangmazu's Reliquary Key\""
+          },
+          {
+            "Enabled": false,
+            "Name": "The Arbiter's Reliquary Key",
+            "Expression": "BaseName == \"The Arbiter's Reliquary Key\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Faded Crisis Fragment",
+            "Expression": "BaseName == \"Faded Crisis Fragment\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Olroth's Reliquary Key",
+            "Expression": "BaseName == \"Olroth's Reliquary Key\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Origin Core",
+            "Expression": "BaseName == \"Origin Core\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Cowardly Fate",
+            "Expression": "BaseName == \"Cowardly Fate\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Deadly Fate",
+            "Expression": "BaseName == \"Deadly Fate\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Victorious Fate",
+            "Expression": "BaseName == \"Victorious Fate\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Origin Cradle",
+            "Expression": "BaseName == \"Origin Cradle\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Origin Spark",
+            "Expression": "BaseName == \"Origin Spark\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ritualistic Reliquary Key",
+            "Expression": "BaseName == \"Ritualistic Reliquary Key\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Weathered Crisis Fragment",
+            "Expression": "BaseName == \"Weathered Crisis Fragment\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Crisis Fragment",
+            "Expression": "BaseName == \"Ancient Crisis Fragment\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Call of the Shadows",
+            "Expression": "BaseName == \"Call of the Shadows\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Twilight Reliquary Key",
+            "Expression": "BaseName == \"Twilight Reliquary Key\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Breach Splinter",
+            "Expression": "BaseName == \"Breach Splinter\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Simulacrum Splinter",
+            "Expression": "BaseName == \"Simulacrum Splinter\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ravenous Splinter",
+            "Expression": "BaseName == \"Ravenous Splinter\""
+          }
+        ]
+      },
+      {
+        "Name": "Abyssal Bones",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Preserved Cranium",
+            "Expression": "BaseName == \"Preserved Cranium\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Jawbone",
+            "Expression": "BaseName == \"Ancient Jawbone\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Collarbone",
+            "Expression": "BaseName == \"Ancient Collarbone\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rib",
+            "Expression": "BaseName == \"Ancient Rib\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Altered Collarbone",
+            "Expression": "BaseName == \"Altered Collarbone\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Preserved Collarbone",
+            "Expression": "BaseName == \"Preserved Collarbone\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Gnawed Jawbone",
+            "Expression": "BaseName == \"Gnawed Jawbone\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Gnawed Collarbone",
+            "Expression": "BaseName == \"Gnawed Collarbone\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Preserved Jawbone",
+            "Expression": "BaseName == \"Preserved Jawbone\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Gnawed Rib",
+            "Expression": "BaseName == \"Gnawed Rib\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Preserved Rib",
+            "Expression": "BaseName == \"Preserved Rib\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Preserved Vertebrae",
+            "Expression": "BaseName == \"Preserved Vertebrae\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Vertebrae",
+            "Expression": "BaseName == \"Ancient Vertebrae\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Gnawed Vertebrae",
+            "Expression": "BaseName == \"Gnawed Vertebrae\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Altered Jawbone",
+            "Expression": "BaseName == \"Altered Jawbone\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Altered Rib",
+            "Expression": "BaseName == \"Altered Rib\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Altered Vertebrae",
+            "Expression": "BaseName == \"Altered Vertebrae\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Altered Cranium",
+            "Expression": "BaseName == \"Altered Cranium\""
+          }
+        ]
+      },
+      {
+        "Name": "Uncut Gems",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 1)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 1)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 2)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 2)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 3)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 3)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 4)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 4)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 5)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 5)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 6)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 6)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 7)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 7)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 8)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 8)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 9)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 9)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 10)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 10)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 11)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 11)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 12)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 12)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 13)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 13)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 14)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 14)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 15)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 15)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 16)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 16)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 17)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 17)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 18)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 18)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 19)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 19)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Skill Gem (Level 20)",
+            "Expression": "BaseName == \"Uncut Skill Gem (Level 20)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Support Gem (Level 1)",
+            "Expression": "BaseName == \"Uncut Support Gem (Level 1)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Support Gem (Level 2)",
+            "Expression": "BaseName == \"Uncut Support Gem (Level 2)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Support Gem (Level 3)",
+            "Expression": "BaseName == \"Uncut Support Gem (Level 3)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Support Gem (Level 4)",
+            "Expression": "BaseName == \"Uncut Support Gem (Level 4)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Support Gem (Level 5)",
+            "Expression": "BaseName == \"Uncut Support Gem (Level 5)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 4)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 4)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 5)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 5)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 6)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 6)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 7)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 7)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 8)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 8)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 9)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 9)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 10)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 10)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 11)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 11)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 12)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 12)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 13)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 13)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 14)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 14)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 15)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 15)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 16)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 16)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 17)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 17)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 18)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 18)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 19)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 19)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uncut Spirit Gem (Level 20)",
+            "Expression": "BaseName == \"Uncut Spirit Gem (Level 20)\""
+          }
+        ]
+      },
+      {
+        "Name": "Lineage Gems",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Atziri's Communion",
+            "Expression": "BaseName == \"Atziri's Communion\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Garukhan's Resolve",
+            "Expression": "BaseName == \"Garukhan's Resolve\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uul-Netol's Embrace",
+            "Expression": "BaseName == \"Uul-Netol's Embrace\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Dialla's Desire",
+            "Expression": "BaseName == \"Dialla's Desire\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rakiata's Flow",
+            "Expression": "BaseName == \"Rakiata's Flow\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rigwald's Ferocity",
+            "Expression": "BaseName == \"Rigwald's Ferocity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Seraph's Heart",
+            "Expression": "BaseName == \"Seraph's Heart\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uhtred's Exodus",
+            "Expression": "BaseName == \"Uhtred's Exodus\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Her Declaration",
+            "Expression": "BaseName == \"Her Declaration\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Esh's Radiance",
+            "Expression": "BaseName == \"Esh's Radiance\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Tul's Stillness",
+            "Expression": "BaseName == \"Tul's Stillness\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uhtred's Augury",
+            "Expression": "BaseName == \"Uhtred's Augury\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Xoph's Pyre",
+            "Expression": "BaseName == \"Xoph's Pyre\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Breachlord's Rift",
+            "Expression": "BaseName == \"Breachlord's Rift\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Vorana's Siege",
+            "Expression": "BaseName == \"Vorana's Siege\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uhtred's Omen",
+            "Expression": "BaseName == \"Uhtred's Omen\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Olroth's Conviction",
+            "Expression": "BaseName == \"Olroth's Conviction\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ixchel's Torment",
+            "Expression": "BaseName == \"Ixchel's Torment\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Atalui's Bloodletting",
+            "Expression": "BaseName == \"Atalui's Bloodletting\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Atziri's Allure",
+            "Expression": "BaseName == \"Atziri's Allure\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Khatal's Rejuvenation",
+            "Expression": "BaseName == \"Khatal's Rejuvenation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Arbiter's Ignition",
+            "Expression": "BaseName == \"Arbiter's Ignition\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Breachlord's Amalgam",
+            "Expression": "BaseName == \"Breachlord's Amalgam\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Catha's Brilliance",
+            "Expression": "BaseName == \"Catha's Brilliance\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Amanamu's Tithe",
+            "Expression": "BaseName == \"Amanamu's Tithe\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Mórrigan's Insight",
+            "Expression": "BaseName == \"Mórrigan's Insight\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Esh's Prowess",
+            "Expression": "BaseName == \"Esh's Prowess\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Sione's Temper",
+            "Expression": "BaseName == \"Sione's Temper\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uhtred's Constellation",
+            "Expression": "BaseName == \"Uhtred's Constellation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ailith's Chimes",
+            "Expression": "BaseName == \"Ailith's Chimes\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Brutus' Brain",
+            "Expression": "BaseName == \"Brutus' Brain\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Medved's Felling",
+            "Expression": "BaseName == \"Medved's Felling\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Styrn's Ferocity",
+            "Expression": "BaseName == \"Styrn's Ferocity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Doedre's Undoing",
+            "Expression": "BaseName == \"Doedre's Undoing\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Zerphi's Infamy",
+            "Expression": "BaseName == \"Zerphi's Infamy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Zarokh's Revolt",
+            "Expression": "BaseName == \"Zarokh's Revolt\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Styrn's Mountain",
+            "Expression": "BaseName == \"Styrn's Mountain\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uhtred's Rite",
+            "Expression": "BaseName == \"Uhtred's Rite\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Zarokh's Refrain",
+            "Expression": "BaseName == \"Zarokh's Refrain\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Hayoxi's Fulmination",
+            "Expression": "BaseName == \"Hayoxi's Fulmination\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Paquate's Pact",
+            "Expression": "BaseName == \"Paquate's Pact\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Trickster's Shard",
+            "Expression": "BaseName == \"Trickster's Shard\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ahn's Citadel",
+            "Expression": "BaseName == \"Ahn's Citadel\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Xibaqua's Rending",
+            "Expression": "BaseName == \"Xibaqua's Rending\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Tecrod's Revenge",
+            "Expression": "BaseName == \"Tecrod's Revenge\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Arbiter's Reach",
+            "Expression": "BaseName == \"Arbiter's Reach\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Einhar's Beastrite",
+            "Expression": "BaseName == \"Einhar's Beastrite\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Atziri's Impatience",
+            "Expression": "BaseName == \"Atziri's Impatience\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Morgana's Tempest",
+            "Expression": "BaseName == \"Morgana's Tempest\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Prototype Seventeen",
+            "Expression": "BaseName == \"Prototype Seventeen\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Tul's Avalanche",
+            "Expression": "BaseName == \"Tul's Avalanche\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Dominus' Grasp",
+            "Expression": "BaseName == \"Dominus' Grasp\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Kulemak's Dominion",
+            "Expression": "BaseName == \"Kulemak's Dominion\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Kurgal's Leash",
+            "Expression": "BaseName == \"Kurgal's Leash\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Olroth's Hubris",
+            "Expression": "BaseName == \"Olroth's Hubris\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Kalisa's Crescendo",
+            "Expression": "BaseName == \"Kalisa's Crescendo\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uruk's Smelting",
+            "Expression": "BaseName == \"Uruk's Smelting\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Kaom's Madness",
+            "Expression": "BaseName == \"Kaom's Madness\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Romira's Requital",
+            "Expression": "BaseName == \"Romira's Requital\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Oisín's Oath",
+            "Expression": "BaseName == \"Oisín's Oath\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Tangmazu's Thurible",
+            "Expression": "BaseName == \"Tangmazu's Thurible\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Vilenta's Propulsion",
+            "Expression": "BaseName == \"Vilenta's Propulsion\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ratha's Assault",
+            "Expression": "BaseName == \"Ratha's Assault\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Tasalio's Rhythm",
+            "Expression": "BaseName == \"Tasalio's Rhythm\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Arjun's Medal",
+            "Expression": "BaseName == \"Arjun's Medal\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Tawhoa's Tending",
+            "Expression": "BaseName == \"Tawhoa's Tending\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Tacati's Ire",
+            "Expression": "BaseName == \"Tacati's Ire\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Bhatair's Vengeance",
+            "Expression": "BaseName == \"Bhatair's Vengeance\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Daresso's Passion",
+            "Expression": "BaseName == \"Daresso's Passion\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Varashta's Blessing",
+            "Expression": "BaseName == \"Varashta's Blessing\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Arakaali's Lust",
+            "Expression": "BaseName == \"Arakaali's Lust\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Guatelitzi's Ablation",
+            "Expression": "BaseName == \"Guatelitzi's Ablation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Cirel's Cultivation",
+            "Expression": "BaseName == \"Cirel's Cultivation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Vruun's Aftermath",
+            "Expression": "BaseName == \"Vruun's Aftermath\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Vruun's Inevitability",
+            "Expression": "BaseName == \"Vruun's Inevitability\""
+          }
+        ]
+      },
+      {
+        "Name": "Essences",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Essence of Hysteria",
+            "Expression": "BaseName == \"Essence of Hysteria\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Horror",
+            "Expression": "BaseName == \"Essence of Horror\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Opulence",
+            "Expression": "BaseName == \"Essence of Opulence\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Delirium",
+            "Expression": "BaseName == \"Essence of Delirium\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Abrasion",
+            "Expression": "BaseName == \"Essence of Abrasion\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of the Breach",
+            "Expression": "BaseName == \"Essence of the Breach\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Grounding",
+            "Expression": "BaseName == \"Essence of Grounding\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Ruin",
+            "Expression": "BaseName == \"Essence of Ruin\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of the Infinite",
+            "Expression": "BaseName == \"Perfect Essence of the Infinite\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Abrasion",
+            "Expression": "BaseName == \"Lesser Essence of Abrasion\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Insulation",
+            "Expression": "BaseName == \"Essence of Insulation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Seeking",
+            "Expression": "BaseName == \"Essence of Seeking\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Haste",
+            "Expression": "BaseName == \"Lesser Essence of Haste\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of the Abyss",
+            "Expression": "BaseName == \"Essence of the Abyss\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Ruin",
+            "Expression": "BaseName == \"Lesser Essence of Ruin\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Haste",
+            "Expression": "BaseName == \"Perfect Essence of Haste\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Opulence",
+            "Expression": "BaseName == \"Lesser Essence of Opulence\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Opulence",
+            "Expression": "BaseName == \"Greater Essence of Opulence\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Haste",
+            "Expression": "BaseName == \"Essence of Haste\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of the Infinite",
+            "Expression": "BaseName == \"Essence of the Infinite\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Battle",
+            "Expression": "BaseName == \"Perfect Essence of Battle\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Opulence",
+            "Expression": "BaseName == \"Perfect Essence of Opulence\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of the Body",
+            "Expression": "BaseName == \"Essence of the Body\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Enhancement",
+            "Expression": "BaseName == \"Essence of Enhancement\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Thawing",
+            "Expression": "BaseName == \"Essence of Thawing\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Sorcery",
+            "Expression": "BaseName == \"Essence of Sorcery\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Ice",
+            "Expression": "BaseName == \"Lesser Essence of Ice\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Enhancement",
+            "Expression": "BaseName == \"Lesser Essence of Enhancement\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Seeking",
+            "Expression": "BaseName == \"Lesser Essence of Seeking\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Alacrity",
+            "Expression": "BaseName == \"Essence of Alacrity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Enhancement",
+            "Expression": "BaseName == \"Perfect Essence of Enhancement\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Grounding",
+            "Expression": "BaseName == \"Perfect Essence of Grounding\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Insanity",
+            "Expression": "BaseName == \"Essence of Insanity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Electricity",
+            "Expression": "BaseName == \"Lesser Essence of Electricity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Sorcery",
+            "Expression": "BaseName == \"Lesser Essence of Sorcery\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Ice",
+            "Expression": "BaseName == \"Essence of Ice\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Thawing",
+            "Expression": "BaseName == \"Lesser Essence of Thawing\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Alacrity",
+            "Expression": "BaseName == \"Lesser Essence of Alacrity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Electricity",
+            "Expression": "BaseName == \"Essence of Electricity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of the Body",
+            "Expression": "BaseName == \"Lesser Essence of the Body\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Grounding",
+            "Expression": "BaseName == \"Lesser Essence of Grounding\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of the Infinite",
+            "Expression": "BaseName == \"Lesser Essence of the Infinite\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Command",
+            "Expression": "BaseName == \"Essence of Command\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Seeking",
+            "Expression": "BaseName == \"Greater Essence of Seeking\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Command",
+            "Expression": "BaseName == \"Lesser Essence of Command\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Battle",
+            "Expression": "BaseName == \"Lesser Essence of Battle\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of the Mind",
+            "Expression": "BaseName == \"Essence of the Mind\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Battle",
+            "Expression": "BaseName == \"Essence of Battle\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Ruin",
+            "Expression": "BaseName == \"Greater Essence of Ruin\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of the Mind",
+            "Expression": "BaseName == \"Perfect Essence of the Mind\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Abrasion",
+            "Expression": "BaseName == \"Perfect Essence of Abrasion\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Flames",
+            "Expression": "BaseName == \"Lesser Essence of Flames\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Flames",
+            "Expression": "BaseName == \"Perfect Essence of Flames\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Ice",
+            "Expression": "BaseName == \"Perfect Essence of Ice\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Electricity",
+            "Expression": "BaseName == \"Perfect Essence of Electricity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Sorcery",
+            "Expression": "BaseName == \"Perfect Essence of Sorcery\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Alacrity",
+            "Expression": "BaseName == \"Perfect Essence of Alacrity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Seeking",
+            "Expression": "BaseName == \"Perfect Essence of Seeking\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of the Mind",
+            "Expression": "BaseName == \"Lesser Essence of the Mind\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Essence of Insulation",
+            "Expression": "BaseName == \"Lesser Essence of Insulation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Essence of Flames",
+            "Expression": "BaseName == \"Essence of Flames\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of the Body",
+            "Expression": "BaseName == \"Greater Essence of the Body\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of the Mind",
+            "Expression": "BaseName == \"Greater Essence of the Mind\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Enhancement",
+            "Expression": "BaseName == \"Greater Essence of Enhancement\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Haste",
+            "Expression": "BaseName == \"Greater Essence of Haste\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Thawing",
+            "Expression": "BaseName == \"Perfect Essence of Thawing\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of the Infinite",
+            "Expression": "BaseName == \"Greater Essence of the Infinite\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Flames",
+            "Expression": "BaseName == \"Greater Essence of Flames\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Insulation",
+            "Expression": "BaseName == \"Greater Essence of Insulation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Ice",
+            "Expression": "BaseName == \"Greater Essence of Ice\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Thawing",
+            "Expression": "BaseName == \"Greater Essence of Thawing\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Electricity",
+            "Expression": "BaseName == \"Greater Essence of Electricity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Grounding",
+            "Expression": "BaseName == \"Greater Essence of Grounding\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Abrasion",
+            "Expression": "BaseName == \"Greater Essence of Abrasion\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Battle",
+            "Expression": "BaseName == \"Greater Essence of Battle\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Sorcery",
+            "Expression": "BaseName == \"Greater Essence of Sorcery\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Command",
+            "Expression": "BaseName == \"Greater Essence of Command\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Essence of Alacrity",
+            "Expression": "BaseName == \"Greater Essence of Alacrity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of the Body",
+            "Expression": "BaseName == \"Perfect Essence of the Body\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Insulation",
+            "Expression": "BaseName == \"Perfect Essence of Insulation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Ruin",
+            "Expression": "BaseName == \"Perfect Essence of Ruin\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Essence of Command",
+            "Expression": "BaseName == \"Perfect Essence of Command\""
+          }
+        ]
+      },
+      {
+        "Name": "Soul Cores",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Azcapa",
+            "Expression": "BaseName == \"Soul Core of Azcapa\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Quipolatl",
+            "Expression": "BaseName == \"Soul Core of Quipolatl\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Xopec's Soul Core of Power",
+            "Expression": "BaseName == \"Xopec's Soul Core of Power\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Opiloti's Soul Core of Assault",
+            "Expression": "BaseName == \"Opiloti's Soul Core of Assault\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Zalatl",
+            "Expression": "BaseName == \"Soul Core of Zalatl\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Cholotl",
+            "Expression": "BaseName == \"Soul Core of Cholotl\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Tzamoto's Soul Core of Ferocity",
+            "Expression": "BaseName == \"Tzamoto's Soul Core of Ferocity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Jiquani",
+            "Expression": "BaseName == \"Soul Core of Jiquani\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Citaqualotl",
+            "Expression": "BaseName == \"Soul Core of Citaqualotl\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Tacati",
+            "Expression": "BaseName == \"Soul Core of Tacati\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Zantipi",
+            "Expression": "BaseName == \"Soul Core of Zantipi\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Quipolatl's Soul Core of Flow",
+            "Expression": "BaseName == \"Quipolatl's Soul Core of Flow\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Topotante",
+            "Expression": "BaseName == \"Soul Core of Topotante\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Opiloti",
+            "Expression": "BaseName == \"Soul Core of Opiloti\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Guatelitzi's Soul Core of Endurance",
+            "Expression": "BaseName == \"Guatelitzi's Soul Core of Endurance\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Ticaba",
+            "Expression": "BaseName == \"Soul Core of Ticaba\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Atmohua",
+            "Expression": "BaseName == \"Soul Core of Atmohua\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Puhuarte",
+            "Expression": "BaseName == \"Soul Core of Puhuarte\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Tzamoto",
+            "Expression": "BaseName == \"Soul Core of Tzamoto\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Soul Core of Xopec",
+            "Expression": "BaseName == \"Soul Core of Xopec\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Estazunti's Soul Core of Convalescence",
+            "Expression": "BaseName == \"Estazunti's Soul Core of Convalescence\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Xipocado's Soul Core of Dominion",
+            "Expression": "BaseName == \"Xipocado's Soul Core of Dominion\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Atmohua's Soul Core of Retreat",
+            "Expression": "BaseName == \"Atmohua's Soul Core of Retreat\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Hayoxi's Soul Core of Heatproofing",
+            "Expression": "BaseName == \"Hayoxi's Soul Core of Heatproofing\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Zalatl's Soul Core of Insulation",
+            "Expression": "BaseName == \"Zalatl's Soul Core of Insulation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Topotante's Soul Core of Dampening",
+            "Expression": "BaseName == \"Topotante's Soul Core of Dampening\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Citaqualotl's Soul Core of Foulness",
+            "Expression": "BaseName == \"Citaqualotl's Soul Core of Foulness\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Tacati's Soul Core of Affliction",
+            "Expression": "BaseName == \"Tacati's Soul Core of Affliction\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uromoti's Soul Core of Attenuation",
+            "Expression": "BaseName == \"Uromoti's Soul Core of Attenuation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Cholotl's Soul Core of War",
+            "Expression": "BaseName == \"Cholotl's Soul Core of War\""
+          }
+        ]
+      },
+      {
+        "Name": "Idols",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Carved Majesty",
+            "Expression": "BaseName == \"Carved Majesty\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Carved Guile",
+            "Expression": "BaseName == \"Carved Guile\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Carved Tenacity",
+            "Expression": "BaseName == \"Carved Tenacity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Carved Mischief",
+            "Expression": "BaseName == \"Carved Mischief\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Fox Idol",
+            "Expression": "BaseName == \"Fox Idol\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rabbit Idol",
+            "Expression": "BaseName == \"Rabbit Idol\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Bear Idol",
+            "Expression": "BaseName == \"Bear Idol\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Boar Idol",
+            "Expression": "BaseName == \"Boar Idol\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Cat Idol",
+            "Expression": "BaseName == \"Cat Idol\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Owl Idol",
+            "Expression": "BaseName == \"Owl Idol\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ox Idol",
+            "Expression": "BaseName == \"Ox Idol\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Primate Idol",
+            "Expression": "BaseName == \"Primate Idol\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Stag Idol",
+            "Expression": "BaseName == \"Stag Idol\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Serpent Idol",
+            "Expression": "BaseName == \"Serpent Idol\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Wolf Idol",
+            "Expression": "BaseName == \"Wolf Idol\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of Grold",
+            "Expression": "BaseName == \"Idol of Grold\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of the Martyr",
+            "Expression": "BaseName == \"Idol of the Martyr\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of Ralakesh",
+            "Expression": "BaseName == \"Idol of Ralakesh\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of the Sycophant",
+            "Expression": "BaseName == \"Idol of the Sycophant\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of Thruldana",
+            "Expression": "BaseName == \"Idol of Thruldana\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of Eramir",
+            "Expression": "BaseName == \"Idol of Eramir\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of Egrin",
+            "Expression": "BaseName == \"Idol of Egrin\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of Greust",
+            "Expression": "BaseName == \"Idol of Greust\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of Yeena",
+            "Expression": "BaseName == \"Idol of Yeena\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of Oak",
+            "Expression": "BaseName == \"Idol of Oak\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of Alira",
+            "Expression": "BaseName == \"Idol of Alira\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of Silk",
+            "Expression": "BaseName == \"Idol of Silk\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of Maxarius",
+            "Expression": "BaseName == \"Idol of Maxarius\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of Kraityn",
+            "Expression": "BaseName == \"Idol of Kraityn\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of Ishta",
+            "Expression": "BaseName == \"Idol of Ishta\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Idol of the Pharisee",
+            "Expression": "BaseName == \"Idol of the Pharisee\""
+          }
+        ]
+      },
+      {
+        "Name": "Runes",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Aldur's Legacy",
+            "Expression": "BaseName == \"Aldur's Legacy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Emergent Possibility",
+            "Expression": "BaseName == \"Emergent Possibility\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Emergent Vigour",
+            "Expression": "BaseName == \"Emergent Vigour\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Astrid's Creativity",
+            "Expression": "BaseName == \"Astrid's Creativity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Rune of Leadership",
+            "Expression": "BaseName == \"Greater Rune of Leadership\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Ward Rune",
+            "Expression": "BaseName == \"Perfect Ward Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Charging Rune",
+            "Expression": "BaseName == \"Perfect Charging Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Stone Rune",
+            "Expression": "BaseName == \"Perfect Stone Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Serle's Triumph",
+            "Expression": "BaseName == \"Serle's Triumph\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Vision Rune",
+            "Expression": "BaseName == \"Perfect Vision Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Robust Rune",
+            "Expression": "BaseName == \"Perfect Robust Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Rebirth Rune",
+            "Expression": "BaseName == \"Perfect Rebirth Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Resolve Rune",
+            "Expression": "BaseName == \"Perfect Resolve Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Body Rune",
+            "Expression": "BaseName == \"Perfect Body Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Mind Rune",
+            "Expression": "BaseName == \"Perfect Mind Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Storm Rune",
+            "Expression": "BaseName == \"Perfect Storm Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Adept Rune",
+            "Expression": "BaseName == \"Perfect Adept Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Inspiration Rune",
+            "Expression": "BaseName == \"Perfect Inspiration Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Desert Rune",
+            "Expression": "BaseName == \"Perfect Desert Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Glacial Rune",
+            "Expression": "BaseName == \"Perfect Glacial Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Iron Rune",
+            "Expression": "BaseName == \"Perfect Iron Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Rune of Alacrity",
+            "Expression": "BaseName == \"Greater Rune of Alacrity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Cadigan's Epiphany",
+            "Expression": "BaseName == \"Cadigan's Epiphany\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Kolr's Hunt",
+            "Expression": "BaseName == \"Kolr's Hunt\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Emergent Instinct",
+            "Expression": "BaseName == \"Emergent Instinct\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Rune of Tithing",
+            "Expression": "BaseName == \"Greater Rune of Tithing\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Masterwork Rune",
+            "Expression": "BaseName == \"Masterwork Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uhtred's Sidereus",
+            "Expression": "BaseName == \"Uhtred's Sidereus\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Robust Rune",
+            "Expression": "BaseName == \"Lesser Robust Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Iron Rune",
+            "Expression": "BaseName == \"Iron Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Reinforcement",
+            "Expression": "BaseName == \"Warding Rune of Reinforcement\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Hedgewitch Assandra's Rune of Wisdom",
+            "Expression": "BaseName == \"Hedgewitch Assandra's Rune of Wisdom\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Emergent Protection",
+            "Expression": "BaseName == \"Emergent Protection\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Ward Rune",
+            "Expression": "BaseName == \"Greater Ward Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Medved's Tending",
+            "Expression": "BaseName == \"Medved's Tending\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Robust Rune",
+            "Expression": "BaseName == \"Robust Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Body Rune",
+            "Expression": "BaseName == \"Body Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Farrul's Rune of the Chase",
+            "Expression": "BaseName == \"Farrul's Rune of the Chase\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rune of the Blossom",
+            "Expression": "BaseName == \"Rune of the Blossom\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Vorana's Carnage",
+            "Expression": "BaseName == \"Vorana's Carnage\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rune of Foundations",
+            "Expression": "BaseName == \"Rune of Foundations\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Heart",
+            "Expression": "BaseName == \"Warding Rune of Heart\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Katla's Gloom",
+            "Expression": "BaseName == \"Katla's Gloom\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Iron Rune",
+            "Expression": "BaseName == \"Lesser Iron Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Adept Rune",
+            "Expression": "BaseName == \"Lesser Adept Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rune of Renown",
+            "Expression": "BaseName == \"Rune of Renown\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Charging Rune",
+            "Expression": "BaseName == \"Charging Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Inspiration Rune",
+            "Expression": "BaseName == \"Lesser Inspiration Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Storm Rune",
+            "Expression": "BaseName == \"Lesser Storm Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Saqawal's Rune of the Sky",
+            "Expression": "BaseName == \"Saqawal's Rune of the Sky\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rune of Acrobatics",
+            "Expression": "BaseName == \"Rune of Acrobatics\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rune of Accumulation",
+            "Expression": "BaseName == \"Rune of Accumulation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Disintegration",
+            "Expression": "BaseName == \"Warding Rune of Disintegration\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Stability",
+            "Expression": "BaseName == \"Warding Rune of Stability\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Salvaging",
+            "Expression": "BaseName == \"Warding Rune of Salvaging\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thrud's Might",
+            "Expression": "BaseName == \"Thrud's Might\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rebirth Rune",
+            "Expression": "BaseName == \"Rebirth Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Inspiration Rune",
+            "Expression": "BaseName == \"Inspiration Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Adept Rune",
+            "Expression": "BaseName == \"Adept Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rune of Culmination",
+            "Expression": "BaseName == \"Rune of Culmination\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Storm Rune",
+            "Expression": "BaseName == \"Storm Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Craiceann's Rune of Warding",
+            "Expression": "BaseName == \"Craiceann's Rune of Warding\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Countess Seske's Rune of Archery",
+            "Expression": "BaseName == \"Countess Seske's Rune of Archery\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Saqawal's Rune of Memory",
+            "Expression": "BaseName == \"Saqawal's Rune of Memory\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Ward Rune",
+            "Expression": "BaseName == \"Lesser Ward Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ward Rune",
+            "Expression": "BaseName == \"Ward Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Charging Rune",
+            "Expression": "BaseName == \"Greater Charging Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Charging Rune",
+            "Expression": "BaseName == \"Lesser Charging Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Body Rune",
+            "Expression": "BaseName == \"Lesser Body Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Body Rune",
+            "Expression": "BaseName == \"Greater Body Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Mind Rune",
+            "Expression": "BaseName == \"Lesser Mind Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Mind Rune",
+            "Expression": "BaseName == \"Mind Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Mind Rune",
+            "Expression": "BaseName == \"Greater Mind Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Rebirth Rune",
+            "Expression": "BaseName == \"Lesser Rebirth Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Rebirth Rune",
+            "Expression": "BaseName == \"Greater Rebirth Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Vision Rune",
+            "Expression": "BaseName == \"Lesser Vision Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Vision Rune",
+            "Expression": "BaseName == \"Vision Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Vision Rune",
+            "Expression": "BaseName == \"Greater Vision Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Resolve Rune",
+            "Expression": "BaseName == \"Lesser Resolve Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Resolve Rune",
+            "Expression": "BaseName == \"Resolve Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Resolve Rune",
+            "Expression": "BaseName == \"Greater Resolve Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Tempered Rune",
+            "Expression": "BaseName == \"Lesser Tempered Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Tempered Rune",
+            "Expression": "BaseName == \"Tempered Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Tempered Rune",
+            "Expression": "BaseName == \"Greater Tempered Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Desert Rune",
+            "Expression": "BaseName == \"Lesser Desert Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Desert Rune",
+            "Expression": "BaseName == \"Desert Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Desert Rune",
+            "Expression": "BaseName == \"Greater Desert Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Glacial Rune",
+            "Expression": "BaseName == \"Lesser Glacial Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Glacial Rune",
+            "Expression": "BaseName == \"Glacial Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Glacial Rune",
+            "Expression": "BaseName == \"Greater Glacial Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Iron Rune",
+            "Expression": "BaseName == \"Greater Iron Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Inspiration Rune",
+            "Expression": "BaseName == \"Greater Inspiration Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rune of Vitality",
+            "Expression": "BaseName == \"Rune of Vitality\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rune of the Prism",
+            "Expression": "BaseName == \"Rune of the Prism\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Armature",
+            "Expression": "BaseName == \"Warding Rune of Armature\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Bodyguards",
+            "Expression": "BaseName == \"Warding Rune of Bodyguards\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Hollowing",
+            "Expression": "BaseName == \"Warding Rune of Hollowing\""
+          },
+          {
+            "Enabled": false,
+            "Name": "The Greatwolf's Rune of Claws",
+            "Expression": "BaseName == \"The Greatwolf's Rune of Claws\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Saqawal's Rune of Erosion",
+            "Expression": "BaseName == \"Saqawal's Rune of Erosion\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Farrul's Rune of Grace",
+            "Expression": "BaseName == \"Farrul's Rune of Grace\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Courtesan Mannan's Rune of Cruelty",
+            "Expression": "BaseName == \"Courtesan Mannan's Rune of Cruelty\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thane Grannell's Rune of Mastery",
+            "Expression": "BaseName == \"Thane Grannell's Rune of Mastery\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rune of Detonation",
+            "Expression": "BaseName == \"Ancient Rune of Detonation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rune of the Hunt",
+            "Expression": "BaseName == \"Rune of the Hunt\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rune of Reach",
+            "Expression": "BaseName == \"Rune of Reach\""
+          },
+          {
+            "Enabled": false,
+            "Name": "The Greatwolf's Rune of Willpower",
+            "Expression": "BaseName == \"The Greatwolf's Rune of Willpower\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Craiceann's Rune of Recovery",
+            "Expression": "BaseName == \"Craiceann's Rune of Recovery\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Fenumus' Rune of Spinning",
+            "Expression": "BaseName == \"Fenumus' Rune of Spinning\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rune of the Titan",
+            "Expression": "BaseName == \"Ancient Rune of the Titan\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Fenumus' Rune of Agony",
+            "Expression": "BaseName == \"Fenumus' Rune of Agony\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Fenumus' Rune of Draining",
+            "Expression": "BaseName == \"Fenumus' Rune of Draining\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Nourishment",
+            "Expression": "BaseName == \"Warding Rune of Nourishment\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Equinox",
+            "Expression": "BaseName == \"Warding Rune of Equinox\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Betrayal of Aldur",
+            "Expression": "BaseName == \"Betrayal of Aldur\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Rune of Nobility",
+            "Expression": "BaseName == \"Greater Rune of Nobility\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Breath of Aldur",
+            "Expression": "BaseName == \"Breath of Aldur\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Farrul's Rune of the Hunt",
+            "Expression": "BaseName == \"Farrul's Rune of the Hunt\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rune of Shattering",
+            "Expression": "BaseName == \"Ancient Rune of Shattering\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Annihilation",
+            "Expression": "BaseName == \"Warding Rune of Annihilation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ire of Aldur",
+            "Expression": "BaseName == \"Ire of Aldur\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lesser Stone Rune",
+            "Expression": "BaseName == \"Lesser Stone Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Greater Stone Rune",
+            "Expression": "BaseName == \"Greater Stone Rune\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thane Myrk's Rune of Summer",
+            "Expression": "BaseName == \"Thane Myrk's Rune of Summer\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lady Hestra's Rune of Winter",
+            "Expression": "BaseName == \"Lady Hestra's Rune of Winter\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rune of Prowess",
+            "Expression": "BaseName == \"Ancient Rune of Prowess\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rune of Control",
+            "Expression": "BaseName == \"Ancient Rune of Control\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rune of Animosity",
+            "Expression": "BaseName == \"Ancient Rune of Animosity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rune of Confrontation",
+            "Expression": "BaseName == \"Rune of Confrontation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Desperation",
+            "Expression": "BaseName == \"Warding Rune of Desperation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Courage",
+            "Expression": "BaseName == \"Warding Rune of Courage\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Glancing",
+            "Expression": "BaseName == \"Warding Rune of Glancing\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Obsession",
+            "Expression": "BaseName == \"Warding Rune of Obsession\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Passion of Aldur",
+            "Expression": "BaseName == \"Passion of Aldur\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rune of Vital Flame",
+            "Expression": "BaseName == \"Rune of Vital Flame\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Symbiosis",
+            "Expression": "BaseName == \"Warding Rune of Symbiosis\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rune of Discovery",
+            "Expression": "BaseName == \"Ancient Rune of Discovery\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rune of Splinters",
+            "Expression": "BaseName == \"Ancient Rune of Splinters\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rune of Decay",
+            "Expression": "BaseName == \"Ancient Rune of Decay\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rune of Witchcraft",
+            "Expression": "BaseName == \"Ancient Rune of Witchcraft\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rune of the Horde",
+            "Expression": "BaseName == \"Ancient Rune of the Horde\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rune of Retaliation",
+            "Expression": "BaseName == \"Ancient Rune of Retaliation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Rune of Consistency",
+            "Expression": "BaseName == \"Rune of Consistency\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Rune of Protection",
+            "Expression": "BaseName == \"Warding Rune of Protection\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Rune of Dueling",
+            "Expression": "BaseName == \"Ancient Rune of Dueling\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Stone Rune",
+            "Expression": "BaseName == \"Stone Rune\""
+          }
+        ]
+      },
+      {
+        "Name": "Omens",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Omen of Chance",
+            "Expression": "BaseName == \"Omen of Chance\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Sinistral Annulment",
+            "Expression": "BaseName == \"Omen of Sinistral Annulment\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Sinistral Erasure",
+            "Expression": "BaseName == \"Omen of Sinistral Erasure\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Whittling",
+            "Expression": "BaseName == \"Omen of Whittling\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Dextral Annulment",
+            "Expression": "BaseName == \"Omen of Dextral Annulment\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Dextral Erasure",
+            "Expression": "BaseName == \"Omen of Dextral Erasure\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Head of the King",
+            "Expression": "BaseName == \"Head of the King\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Dextral Crystallisation",
+            "Expression": "BaseName == \"Omen of Dextral Crystallisation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of the Hunt",
+            "Expression": "BaseName == \"Omen of the Hunt\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Chaotic Rarity",
+            "Expression": "BaseName == \"Omen of Chaotic Rarity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Chaotic Quantity",
+            "Expression": "BaseName == \"Omen of Chaotic Quantity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Sanctification",
+            "Expression": "BaseName == \"Omen of Sanctification\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Secret Compartments",
+            "Expression": "BaseName == \"Omen of Secret Compartments\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Chaotic Monsters",
+            "Expression": "BaseName == \"Omen of Chaotic Monsters\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of the Blessed",
+            "Expression": "BaseName == \"Omen of the Blessed\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Sinistral Crystallisation",
+            "Expression": "BaseName == \"Omen of Sinistral Crystallisation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Reinforcements",
+            "Expression": "BaseName == \"Omen of Reinforcements\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Answered Prayers",
+            "Expression": "BaseName == \"Omen of Answered Prayers\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Chaotic Effectiveness",
+            "Expression": "BaseName == \"Omen of Chaotic Effectiveness\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Resurgence",
+            "Expression": "BaseName == \"Omen of Resurgence\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Bartering",
+            "Expression": "BaseName == \"Omen of Bartering\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Amelioration",
+            "Expression": "BaseName == \"Omen of Amelioration\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Sinistral Exaltation",
+            "Expression": "BaseName == \"Omen of Sinistral Exaltation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Catalysing Exaltation",
+            "Expression": "BaseName == \"Omen of Catalysing Exaltation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of the Ancients",
+            "Expression": "BaseName == \"Omen of the Ancients\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Dextral Exaltation",
+            "Expression": "BaseName == \"Omen of Dextral Exaltation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Greater Exaltation",
+            "Expression": "BaseName == \"Omen of Greater Exaltation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "An Audience with the King",
+            "Expression": "BaseName == \"An Audience with the King\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Refreshment",
+            "Expression": "BaseName == \"Omen of Refreshment\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Omen of Gambling",
+            "Expression": "BaseName == \"Omen of Gambling\""
+          }
+        ]
+      },
+      {
+        "Name": "Expedition",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Expedition Logbook",
+            "Expression": "BaseName == \"Expedition Logbook\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Aldur's Saga",
+            "Expression": "BaseName == \"Aldur's Saga\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uhtred's Saga",
+            "Expression": "BaseName == \"Uhtred's Saga\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Olroth's Saga",
+            "Expression": "BaseName == \"Olroth's Saga\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Vorana's Saga",
+            "Expression": "BaseName == \"Vorana's Saga\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Medved's Saga",
+            "Expression": "BaseName == \"Medved's Saga\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uhtred's Crest of the Chalice",
+            "Expression": "BaseName == \"Uhtred's Crest of the Chalice\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Medved's Crest of the Circle",
+            "Expression": "BaseName == \"Medved's Crest of the Circle\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Vorana's Crest of the Scythe",
+            "Expression": "BaseName == \"Vorana's Crest of the Scythe\""
+          }
+        ]
+      },
+      {
+        "Name": "Liquid Emotions",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Potent Liquid Ferocity",
+            "Expression": "BaseName == \"Potent Liquid Ferocity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Potent Liquid Contempt",
+            "Expression": "BaseName == \"Potent Liquid Contempt\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Potent Liquid Contempt",
+            "Expression": "BaseName == \"Ancient Potent Liquid Contempt\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Concentrated Liquid Isolation",
+            "Expression": "BaseName == \"Concentrated Liquid Isolation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Concentrated Liquid Suffering",
+            "Expression": "BaseName == \"Concentrated Liquid Suffering\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Concentrated Liquid Fear",
+            "Expression": "BaseName == \"Concentrated Liquid Fear\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Potent Liquid Melancholy",
+            "Expression": "BaseName == \"Ancient Potent Liquid Melancholy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Liquid Despair",
+            "Expression": "BaseName == \"Liquid Despair\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Potent Liquid Ferocity",
+            "Expression": "BaseName == \"Ancient Potent Liquid Ferocity\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Concentrated Liquid Isolation",
+            "Expression": "BaseName == \"Ancient Concentrated Liquid Isolation\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Potent Liquid Melancholy",
+            "Expression": "BaseName == \"Potent Liquid Melancholy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Liquid Disgust",
+            "Expression": "BaseName == \"Liquid Disgust\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Diluted Liquid Ire",
+            "Expression": "BaseName == \"Ancient Diluted Liquid Ire\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Diluted Liquid Guilt",
+            "Expression": "BaseName == \"Ancient Diluted Liquid Guilt\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Liquid Paranoia",
+            "Expression": "BaseName == \"Ancient Liquid Paranoia\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Liquid Envy",
+            "Expression": "BaseName == \"Ancient Liquid Envy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Liquid Disgust",
+            "Expression": "BaseName == \"Ancient Liquid Disgust\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Liquid Despair",
+            "Expression": "BaseName == \"Ancient Liquid Despair\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Concentrated Liquid Fear",
+            "Expression": "BaseName == \"Ancient Concentrated Liquid Fear\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Concentrated Liquid Suffering",
+            "Expression": "BaseName == \"Ancient Concentrated Liquid Suffering\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Diluted Liquid Ire",
+            "Expression": "BaseName == \"Diluted Liquid Ire\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Diluted Liquid Guilt",
+            "Expression": "BaseName == \"Diluted Liquid Guilt\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Diluted Liquid Greed",
+            "Expression": "BaseName == \"Diluted Liquid Greed\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Liquid Paranoia",
+            "Expression": "BaseName == \"Liquid Paranoia\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Liquid Envy",
+            "Expression": "BaseName == \"Liquid Envy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Diluted Liquid Greed",
+            "Expression": "BaseName == \"Ancient Diluted Liquid Greed\""
+          }
+        ]
+      },
+      {
+        "Name": "Catalysts",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Reaver Catalyst",
+            "Expression": "BaseName == \"Reaver Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Sibilant Catalyst",
+            "Expression": "BaseName == \"Sibilant Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Necrotic Catalyst",
+            "Expression": "BaseName == \"Necrotic Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Neural Catalyst",
+            "Expression": "BaseName == \"Neural Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Carapace Catalyst",
+            "Expression": "BaseName == \"Carapace Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Flesh Catalyst",
+            "Expression": "BaseName == \"Flesh Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Chayula's Catalyst",
+            "Expression": "BaseName == \"Chayula's Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Esh's Catalyst",
+            "Expression": "BaseName == \"Esh's Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Tul's Catalyst",
+            "Expression": "BaseName == \"Tul's Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Xoph's Catalyst",
+            "Expression": "BaseName == \"Xoph's Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Uul-Netol's Catalyst",
+            "Expression": "BaseName == \"Uul-Netol's Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Refined Reaver Catalyst",
+            "Expression": "BaseName == \"Refined Reaver Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Refined Sibilant Catalyst",
+            "Expression": "BaseName == \"Refined Sibilant Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Refined Necrotic Catalyst",
+            "Expression": "BaseName == \"Refined Necrotic Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Refined Neural Catalyst",
+            "Expression": "BaseName == \"Refined Neural Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Refined Carapace Catalyst",
+            "Expression": "BaseName == \"Refined Carapace Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Refined Flesh Catalyst",
+            "Expression": "BaseName == \"Refined Flesh Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Refined Chayula's Catalyst",
+            "Expression": "BaseName == \"Refined Chayula's Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Refined Esh's Catalyst",
+            "Expression": "BaseName == \"Refined Esh's Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Refined Tul's Catalyst",
+            "Expression": "BaseName == \"Refined Tul's Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Refined Xoph's Catalyst",
+            "Expression": "BaseName == \"Refined Xoph's Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Refined Uul-Netol's Catalyst",
+            "Expression": "BaseName == \"Refined Uul-Netol's Catalyst\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Breachlord Sac",
+            "Expression": "BaseName == \"Breachlord Sac\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Hivebrain Gland",
+            "Expression": "BaseName == \"Hivebrain Gland\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ancient Wombgift",
+            "Expression": "BaseName == \"Ancient Wombgift\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Mysterious Wombgift",
+            "Expression": "BaseName == \"Mysterious Wombgift\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Provisioning Wombgift",
+            "Expression": "BaseName == \"Provisioning Wombgift\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Cryonic Ring",
+            "Expression": "BaseName == \"Cryonic Ring\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Enthalpic Ring",
+            "Expression": "BaseName == \"Enthalpic Ring\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Synaptic Ring",
+            "Expression": "BaseName == \"Synaptic Ring\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Organic Ring",
+            "Expression": "BaseName == \"Organic Ring\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Fugitive Ring",
+            "Expression": "BaseName == \"Fugitive Ring\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Formless Ring",
+            "Expression": "BaseName == \"Formless Ring\""
+          }
+        ]
+      },
+      {
+        "Name": "Verisium",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Verisium",
+            "Expression": "BaseName == \"Verisium\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Exceptional Verisium",
+            "Expression": "BaseName == \"Exceptional Verisium\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Celestial Alloy",
+            "Expression": "BaseName == \"Celestial Alloy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Transcendent Alloy",
+            "Expression": "BaseName == \"Transcendent Alloy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Sovereign Alloy",
+            "Expression": "BaseName == \"Sovereign Alloy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Adaptive Alloy",
+            "Expression": "BaseName == \"Adaptive Alloy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "The Runebinder's Alloy",
+            "Expression": "BaseName == \"The Runebinder's Alloy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Protective Alloy",
+            "Expression": "BaseName == \"Protective Alloy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Prismatic Alloy",
+            "Expression": "BaseName == \"Prismatic Alloy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Mystic Alloy",
+            "Expression": "BaseName == \"Mystic Alloy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Runic Alloy",
+            "Expression": "BaseName == \"Runic Alloy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "The Runefather's Alloy",
+            "Expression": "BaseName == \"The Runefather's Alloy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Expansive Alloy",
+            "Expression": "BaseName == \"Expansive Alloy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Cyclonic Alloy",
+            "Expression": "BaseName == \"Cyclonic Alloy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Swift Alloy",
+            "Expression": "BaseName == \"Swift Alloy\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Olroth's Crest of the Sun",
+            "Expression": "BaseName == \"Olroth's Crest of the Sun\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Veridical Starlit Ore",
+            "Expression": "BaseName == \"Veridical Starlit Ore\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Warding Starlit Ore",
+            "Expression": "BaseName == \"Warding Starlit Ore\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Revered Starlit Ore",
+            "Expression": "BaseName == \"Revered Starlit Ore\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Venerable Starlit Ore",
+            "Expression": "BaseName == \"Venerable Starlit Ore\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Perfect Flux",
+            "Expression": "BaseName == \"Perfect Flux\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Void Flux",
+            "Expression": "BaseName == \"Void Flux\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Blazing Flux",
+            "Expression": "BaseName == \"Blazing Flux\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Chilling Flux",
+            "Expression": "BaseName == \"Chilling Flux\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Crackling Flux",
+            "Expression": "BaseName == \"Crackling Flux\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thaumaturgic Flux (Level 8)",
+            "Expression": "BaseName == \"Thaumaturgic Flux (Level 8)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thaumaturgic Flux (Level 9)",
+            "Expression": "BaseName == \"Thaumaturgic Flux (Level 9)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thaumaturgic Flux (Level 10)",
+            "Expression": "BaseName == \"Thaumaturgic Flux (Level 10)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thaumaturgic Flux (Level 11)",
+            "Expression": "BaseName == \"Thaumaturgic Flux (Level 11)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thaumaturgic Flux (Level 12)",
+            "Expression": "BaseName == \"Thaumaturgic Flux (Level 12)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thaumaturgic Flux (Level 13)",
+            "Expression": "BaseName == \"Thaumaturgic Flux (Level 13)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thaumaturgic Flux (Level 14)",
+            "Expression": "BaseName == \"Thaumaturgic Flux (Level 14)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thaumaturgic Flux (Level 15)",
+            "Expression": "BaseName == \"Thaumaturgic Flux (Level 15)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thaumaturgic Flux (Level 16)",
+            "Expression": "BaseName == \"Thaumaturgic Flux (Level 16)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thaumaturgic Flux (Level 17)",
+            "Expression": "BaseName == \"Thaumaturgic Flux (Level 17)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thaumaturgic Flux (Level 18)",
+            "Expression": "BaseName == \"Thaumaturgic Flux (Level 18)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thaumaturgic Flux (Level 19)",
+            "Expression": "BaseName == \"Thaumaturgic Flux (Level 19)\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Thaumaturgic Flux (Level 20)",
+            "Expression": "BaseName == \"Thaumaturgic Flux (Level 20)\""
+          }
+        ]
+      },
+      {
+        "Name": "Unique Tablets",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Wraeclast Besieged",
+            "Expression": "BaseName == \"Wraeclast Besieged\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Clear Skies",
+            "Expression": "BaseName == \"Clear Skies\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Freedom of Faith",
+            "Expression": "BaseName == \"Freedom of Faith\""
+          },
+          {
+            "Enabled": false,
+            "Name": "The Grand Project",
+            "Expression": "BaseName == \"The Grand Project\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Visions of Paradise",
+            "Expression": "BaseName == \"Visions of Paradise\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Mastered Domain",
+            "Expression": "BaseName == \"Mastered Domain\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Season of the Hunt",
+            "Expression": "BaseName == \"Season of the Hunt\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Cruel Hegemony",
+            "Expression": "BaseName == \"Cruel Hegemony\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Unforeseen Consequences",
+            "Expression": "BaseName == \"Unforeseen Consequences\""
+          }
+        ]
+      },
+      {
+        "Name": "Precursor Tablets",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Breach Precursor Tablet",
+            "Expression": "BaseName == \"Breach Precursor Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Breach Tablet",
+            "Expression": "BaseName == \"Breach Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Expedition Precursor Tablet",
+            "Expression": "BaseName == \"Expedition Precursor Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Expedition Tablet",
+            "Expression": "BaseName == \"Expedition Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Delirium Precursor Tablet",
+            "Expression": "BaseName == \"Delirium Precursor Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Delirium Tablet",
+            "Expression": "BaseName == \"Delirium Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ritual Precursor Tablet",
+            "Expression": "BaseName == \"Ritual Precursor Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ritual Tablet",
+            "Expression": "BaseName == \"Ritual Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Irradiated Precursor Tablet",
+            "Expression": "BaseName == \"Irradiated Precursor Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Irradiated Tablet",
+            "Expression": "BaseName == \"Irradiated Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Overseer Precursor Tablet",
+            "Expression": "BaseName == \"Overseer Precursor Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Overseer Tablet",
+            "Expression": "BaseName == \"Overseer Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Abyss Precursor Tablet",
+            "Expression": "BaseName == \"Abyss Precursor Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Abyss Tablet",
+            "Expression": "BaseName == \"Abyss Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Precursor Tablet",
+            "Expression": "BaseName == \"Precursor Tablet\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Tablet",
+            "Expression": "BaseName == \"Tablet\""
+          }
+        ]
+      },
+      {
+        "Name": "Breach Wombgift",
+        "AllowCustomItems": false,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": [
+          {
+            "Enabled": false,
+            "Name": "Banded Wombgift",
+            "Expression": "BaseName == \"Banded Wombgift\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Lavish Wombgift",
+            "Expression": "BaseName == \"Lavish Wombgift\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Ornate Wombgift",
+            "Expression": "BaseName == \"Ornate Wombgift\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Revelatory Wombgift",
+            "Expression": "BaseName == \"Revelatory Wombgift\""
+          },
+          {
+            "Enabled": false,
+            "Name": "Signet Wombgift",
+            "Expression": "BaseName == \"Signet Wombgift\""
+          }
+        ]
+      },
+      {
+        "Name": "Own",
+        "AllowCustomItems": true,
+        "ShowOnlyAllowed": false,
+        "SearchText": "",
+        "Rules": []
+      }
+    ],
+    "LegacyRulesMigrated": true,
+    "AutoSampleRulesCleanupV4Done": true,
+    "AutoSampleRulesCleanupV5Done": true,
+    "Rules": []
+  },
+  "Transition": {
+    "AutoClickArenaTransition": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "ArenaTransitionLabelText": {
+      "Value": "競技場"
+    },
+    "AutoClickAbyssSubAreaTransition": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "ArenaTransitionScanMs": {
+      "Value": 1000
+    },
+    "ArenaTransitionMaxRetries": {
+      "Value": 3
+    },
+    "ArenaTransitionRetryCooldownMs": {
+      "Value": 5000
+    }
+  },
+  "Debug": {
+    "DebugGeneratePngOnAreaChange": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "EnableSpikeProfiler": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "SpikeProfilerThresholdMs": {
+      "Value": 8
+    },
+    "SpikeProfilerFlushIntervalMs": {
+      "Value": 1000
+    },
+    "SpikeProfilerLogEverySample": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "SpikeProfilerDirectory": {
+      "Value": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\Follower-SpikeProfiler"
+    },
+    "DebugTradeDumpAcceptToTxt": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "DebugAutoPartyScannerToTxt": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "DebugAutoPartyReactionsToTxt": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "AutoPartyDebugDirectory": {
+      "Value": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\FollowerDebug"
+    },
+    "DebugAutoPartyHoverContextToTxt": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "AutoPartyHoverContextDumpHotkey": {
+      "Value": 121
+    },
+    "AutoPartyHoverContextMaxDepth": {
+      "Value": 8
+    },
+    "AutoPartyHoverContextChildLimit": {
+      "Value": 300
+    },
+    "AutoPartyDebugMaxNodesPerTick": {
+      "Value": 2000
+    },
+    "AutoPartyReactionContextChildLimit": {
+      "Value": 80
+    },
+    "ShowRuntimeOverlay": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "DrawPathAndTransitions": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "RuntimeOverlayX": {
+      "Value": 500
+    },
+    "RuntimeOverlayY": {
+      "Value": 120
+    }
+  }
+}

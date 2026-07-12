@@ -9,7 +9,7 @@
   "BackgroundColor": "000000ff",
   "BorderColor": "926b2bff",
   "Enable": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",

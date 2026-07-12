@@ -11,10 +11,10 @@
     }
   },
   "ActionDelay": {
-    "Value": 75
+    "Value": 40
   },
   "RandomDelay": {
-    "Value": 25
+    "Value": 15
   },
   "CancelWithRightClick": {
     "Value": true,
@@ -39,7 +39,7 @@
     }
   },
   "AutoConfirm": {
-    "Value": true,
+    "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -50,7 +50,7 @@
     }
   },
   "AutoPickup": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -83,7 +83,7 @@
     }
   },
   "MinCurrencyValue": {
-    "Value": 20.0
+    "Value": 8.0
   },
   "IncludeRitualItems": {
     "Value": true,
@@ -97,7 +97,7 @@
     }
   },
   "MinRitualValue": {
-    "Value": 20.0
+    "Value": 8.0
   },
   "IncludeUniqueAccessories": {
     "Value": true,
@@ -111,7 +111,7 @@
     }
   },
   "MinUniqueAccessoriesValue": {
-    "Value": 20.0
+    "Value": 50.0
   },
   "IncludeUniqueArmour": {
     "Value": true,
@@ -125,7 +125,7 @@
     }
   },
   "MinUniqueArmourValue": {
-    "Value": 20.0
+    "Value": 50.0
   },
   "IncludeUniqueCharms": {
     "Value": true,
@@ -139,7 +139,7 @@
     }
   },
   "MinUniqueCharmsValue": {
-    "Value": 20.0
+    "Value": 50.0
   },
   "IncludeUniqueFlasks": {
     "Value": true,
@@ -153,7 +153,7 @@
     }
   },
   "MinUniqueFlasksValue": {
-    "Value": 20.0
+    "Value": 50.0
   },
   "IncludeUniqueIdols": {
     "Value": true,
@@ -167,7 +167,7 @@
     }
   },
   "MinUniqueIdolsValue": {
-    "Value": 20.0
+    "Value": 50.0
   },
   "IncludeUniqueJewels": {
     "Value": true,
@@ -181,7 +181,7 @@
     }
   },
   "MinUniqueJewelsValue": {
-    "Value": 20.0
+    "Value": 50.0
   },
   "IncludeUniqueWeapons": {
     "Value": true,
@@ -195,10 +195,10 @@
     }
   },
   "MinUniqueWeaponsValue": {
-    "Value": 20.0
+    "Value": 50.0
   },
   "DrawDebugOverlay": {
-    "Value": true,
+    "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -209,77 +209,8 @@
     }
   },
   "DeferGroup": {
-    "Items": [
-      {
-        "Name": "卡蘭德的魔鏡",
-        "Enabled": true,
-        "Priority": 10,
-        "MinStackSize": 1,
-        "IsApiItem": {
-          "Value": false,
-          "AttachedHotkey": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "None",
-              "Win": false
-            }
-          }
-        }
-      },
-      {
-        "Name": "髮辮",
-        "Enabled": true,
-        "Priority": 5,
-        "MinStackSize": 1,
-        "IsApiItem": {
-          "Value": false,
-          "AttachedHotkey": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "None",
-              "Win": false
-            }
-          }
-        }
-      },
-      {
-        "Name": "獵首",
-        "Enabled": true,
-        "Priority": 5,
-        "MinStackSize": 1,
-        "IsApiItem": {
-          "Value": false,
-          "AttachedHotkey": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "None",
-              "Win": false
-            }
-          }
-        }
-      },
-      {
-        "Name": "混沌",
-        "Enabled": true,
-        "Priority": 5,
-        "MinStackSize": 1,
-        "IsApiItem": {
-          "Value": false,
-          "AttachedHotkey": {
-            "ValueV2": {
-              "ControllerKey": "None",
-              "ControllerModifierKey": "None",
-              "Key": "None",
-              "Win": false
-            }
-          }
-        }
-      }
-    ],
+    "Items": [],
     "Enabled": true,
-    "Name": "Default Defer Group"
+    "Name": "默认延期规则组"
   }
 }

@@ -11,7 +11,7 @@
     }
   },
   "Description": {
-    "Value": true,
+    "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -21,8 +21,11 @@
       }
     }
   },
+  "EntityListUpdatePeriod": {
+    "Value": 50
+  },
   "IgnoreUiElementVisibility": {
-    "Value": true,
+    "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -106,17 +109,17 @@
     }
   },
   "DrawDistanceLimit": {
-    "Value": 666
+    "Value": 300
   },
   "ShowMinionOnlyWhenBelowHp": {
-    "Value": 0
+    "Value": 50
   },
   "DpsEstimateDuration": {
     "Value": 1000
   },
   "CullingStrike": null,
   "HasCullingStrike": {
-    "Value": true,
+    "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -203,7 +206,7 @@
       }
     },
     "ShowMonsterNames": {
-      "Value": true,
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -225,7 +228,7 @@
       "Value": 20
     },
     "ShowNextStageName": {
-      "Value": true,
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -236,7 +239,7 @@
       }
     },
     "ShowNextStageNameInBossOverlay": {
-      "Value": true,
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -258,7 +261,7 @@
       }
     },
     "CutOffBackswing": {
-      "Value": true,
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -285,7 +288,7 @@
       "Value": 100.0
     },
     "Height": {
-      "Value": 5.0
+      "Value": 20.0
     },
     "OutlineThickness": {
       "Value": 1
@@ -399,7 +402,7 @@
         "Value": 0.0
       },
       "ShowStageNames": {
-        "Value": true,
+        "Value": false,
         "AttachedHotkey": {
           "ValueV2": {
             "ControllerKey": "None",
@@ -454,7 +457,7 @@
       }
     },
     "ShowDps": {
-      "Value": true,
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -519,7 +522,7 @@
     },
     "CastBarSettings": {
       "Show": {
-        "Value": true,
+        "Value": false,
         "AttachedHotkey": {
           "ValueV2": {
             "ControllerKey": "None",
@@ -541,7 +544,7 @@
         "Value": 0.0
       },
       "ShowStageNames": {
-        "Value": true,
+        "Value": false,
         "AttachedHotkey": {
           "ValueV2": {
             "ControllerKey": "None",
@@ -596,7 +599,7 @@
       }
     },
     "ShowDps": {
-      "Value": true,
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -683,7 +686,7 @@
         "Value": 0.0
       },
       "ShowStageNames": {
-        "Value": true,
+        "Value": false,
         "AttachedHotkey": {
           "ValueV2": {
             "ControllerKey": "None",
@@ -697,7 +700,7 @@
   },
   "MagicEnemy": {
     "Show": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -738,7 +741,7 @@
       }
     },
     "ShowDps": {
-      "Value": true,
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -825,7 +828,7 @@
         "Value": 0.0
       },
       "ShowStageNames": {
-        "Value": true,
+        "Value": false,
         "AttachedHotkey": {
           "ValueV2": {
             "ControllerKey": "None",
@@ -839,7 +842,7 @@
   },
   "NormalEnemy": {
     "Show": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -850,10 +853,10 @@
       }
     },
     "Width": {
-      "Value": 75.0
+      "Value": 40.998
     },
     "Height": {
-      "Value": 10.0
+      "Value": 8.01
     },
     "OutlineThickness": {
       "Value": 1
@@ -894,7 +897,7 @@
       "Value": 1.0
     },
     "CombineLifeAndEs": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -967,7 +970,7 @@
         "Value": 0.0
       },
       "ShowStageNames": {
-        "Value": true,
+        "Value": false,
         "AttachedHotkey": {
           "ValueV2": {
             "ControllerKey": "None",
@@ -1109,7 +1112,7 @@
         "Value": 0.0
       },
       "ShowStageNames": {
-        "Value": true,
+        "Value": false,
         "AttachedHotkey": {
           "ValueV2": {
             "ControllerKey": "None",
@@ -1134,10 +1137,10 @@
       }
     },
     "Width": {
-      "Value": 100.0
+      "Value": 30.0
     },
     "Height": {
-      "Value": 20.0
+      "Value": 30.0
     },
     "OutlineThickness": {
       "Value": 1
@@ -1148,14 +1151,14 @@
     "HealthSegmentHeight": {
       "Value": 0.5
     },
-    "LifeColor": "008000ff",
-    "EsColor": "00ffffff",
+    "LifeColor": "05a005ff",
+    "EsColor": "00f6faff",
     "ManaColor": "0000ffff",
     "CullableColor": "ffffffff",
     "BackgroundColor": "000000ff",
     "OutlineColor": "ffffff00",
     "TextColor": "ffffffff",
-    "TextBackground": "000000ff",
+    "TextBackground": "00000098",
     "HealthSegmentColor": "000000ff",
     "TextPosition": {
       "Value": {
@@ -1189,7 +1192,7 @@
       }
     },
     "CombineLifeAndMana": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -1251,7 +1254,7 @@
         "Value": 0.0
       },
       "ShowStageNames": {
-        "Value": true,
+        "Value": false,
         "AttachedHotkey": {
           "ValueV2": {
             "ControllerKey": "None",

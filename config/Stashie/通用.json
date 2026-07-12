@@ -66,6 +66,7 @@
           "RawQuery": "\nContainsString(BaseName, new string[] { \"地图钥匙\",\"地圖鑰匙\" })",
           "Shifting": false
         }
+
       ],
       "MenuName": "异界"
     },
@@ -114,7 +115,13 @@
           "FilterName": "重革腰带",
           "RawQuery": "Rarity == ItemRarity.Normal && ContainsString(BaseName, new string[] { \"重革腰帶\",\"重革腰带\" })",
           "Shifting": false
-        }
+        },
+		{
+          "Affinity": false,
+          "FilterName": "黎明宝库钥匙",
+          "RawQuery": "\nContainsString(BaseName, new string[] { \"黎明宝库钥匙\",\"黎明寶庫鑰匙\" })",
+          "Shifting": false
+        }		
       ],
       "MenuName": "白装"
     },

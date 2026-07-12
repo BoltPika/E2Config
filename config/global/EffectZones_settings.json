@@ -22,7 +22,7 @@
     }
   },
   "IgnoreFullscreenPanels": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -33,7 +33,7 @@
     }
   },
   "IgnoreLargePanels": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",

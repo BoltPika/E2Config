@@ -30,7 +30,7 @@
     "ValueV2": {
       "ControllerKey": "None",
       "ControllerModifierKey": "None",
-      "Key": "None",
+      "Key": "Insert",
       "Win": false
     }
   },
@@ -158,16 +158,16 @@
   },
   "PerformanceSettings": {
     "EntityParserThreads": {
-      "Value": 12
+      "Value": 20
     },
     "TargetFps": {
-      "Value": 120
+      "Value": 200
     },
     "EntitiesFps": {
-      "Value": 120
+      "Value": 200
     },
     "ParseServerEntities": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -184,7 +184,7 @@
       "Value": 1000
     },
     "MaxEntities": {
-      "Value": 2000
+      "Value": 5000
     }
   },
   "AttachToMainProcessWindow": {
@@ -238,7 +238,7 @@
     "Value": 6.0
   },
   "UseOldStyleListNode": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -286,24 +286,15 @@
       "Content": [
         {
           "Font": {
-            "Value": "unifont"
-          },
-          "Sizes": {
-            "Content": [
-              {
-                "Value": 16
-              }
-            ]
-          }
-        },
-        {
-          "Font": {
             "Value": "syht"
           },
           "Sizes": {
             "Content": [
               {
                 "Value": 14
+              },
+              {
+                "Value": 18
               }
             ]
           }
@@ -311,7 +302,7 @@
       ]
     },
     "MainFont": {
-      "Value": "syht:14"
+      "Value": "syht:18"
     },
     "FontGlyphRange": {
       "Value": "ChineseFull"

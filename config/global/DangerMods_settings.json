@@ -28,7 +28,7 @@
     "Value": "额外暴击=>,MonsterCriticalStrikeChance1,额外感电=>,MonsterShockChanceIncrease1,急速、迅捷=>,MonsterIncreasedSpeed1,狂暴=>,MonsterPeriodicEnrage2"
   },
   "ShowAlertText": {
-    "Value": true,
+    "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",

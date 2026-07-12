@@ -1,6 +1,6 @@
 {
   "Enable": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -24,7 +24,7 @@
   "ZoomMenu": {
     "EnableZoom": {},
     "EnableZoomAtLaunch": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",

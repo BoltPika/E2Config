@@ -5,7 +5,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -18,7 +19,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -28,7 +30,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -38,7 +41,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -48,7 +52,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -58,32 +63,46 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
   "CacheBreachEntities": {
-    "Value": true,
+    "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
   "Enable": {
-    "Value": true,
+    "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
   "IconListRefreshPeriod": {
     "Value": 100
+  },
+  "HighlightHiddenMonsters": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
   },
   "AlwaysShownIngameIcons": {
     "Content": [
@@ -95,6 +114,9 @@
       }
     ]
   },
+  "IgnoreHiddenStatusMinimapIcons": {
+    "Content": []
+  },
   "IconsBuilderSettings": {
     "RunEveryXTicks": {
       "Value": 10
@@ -105,27 +127,30 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
     "HidePlayers": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
     "HideMinions": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -135,7 +160,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -145,7 +171,54 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "MonsterRarityNames": {
+      "ShowNormalNames": {
+        "Value": false,
+        "AttachedHotkey": {
+          "ValueV2": {
+            "ControllerKey": "None",
+            "ControllerModifierKey": "None",
+            "Key": "None",
+            "Win": false
+          }
+        }
+      },
+      "ShowMagicNames": {
+        "Value": false,
+        "AttachedHotkey": {
+          "ValueV2": {
+            "ControllerKey": "None",
+            "ControllerModifierKey": "None",
+            "Key": "None",
+            "Win": false
+          }
+        }
+      },
+      "ShowRareNames": {
+        "Value": false,
+        "AttachedHotkey": {
+          "ValueV2": {
+            "ControllerKey": "None",
+            "ControllerModifierKey": "None",
+            "Key": "None",
+            "Win": false
+          }
+        }
+      },
+      "ShowUniqueNames": {
+        "Value": true,
+        "AttachedHotkey": {
+          "ValueV2": {
+            "ControllerKey": "None",
+            "ControllerModifierKey": "None",
+            "Key": "None",
+            "Win": false
+          }
         }
       }
     },
@@ -155,7 +228,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -165,11 +239,37 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
-    "SizeDefaultIcon": 16.0,
+    "HighlightEldritchMonsters": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "EldritchMonstersColor": "00ffffff",
+    "PlayerIconSize": {
+      "Value": 13
+    },
+    "ShowPlayerNames": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
     "SizeNpcIcon": {
       "Value": 10
     },
@@ -180,12 +280,12 @@
       "Value": 10
     },
     "SizeEntityRareIcon": {
-      "Value": 10
+      "Value": 28
     },
     "SizeEntityUniqueIcon": {
-      "Value": 10
+      "Value": 30
     },
-    "SizeEntityProximityMonsterIcon": {
+    "DeliriumMonsterIconSize": {
       "Value": 10
     },
     "SizeBreachChestIcon": {
@@ -212,7 +312,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -222,11 +323,94 @@
     "SizeMiscIcon": {
       "Value": 10
     },
+    "MiscIngameIconSize": {
+      "Value": 16
+    },
     "SizeShrineIcon": {
       "Value": 10
     },
-    "CustomIcons": {
+    "ShowNormalMonsters": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "ShowMagicMonsters": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "MonstersWithIcons": {
       "Content": []
+    },
+    "CustomIcons": {
+      "Content": [
+        {
+          "Icon": "None",
+          "MetadataRegex": {
+            "Value": "^$"
+          },
+          "Tint": "ffffffff",
+          "Size": {
+            "Value": 5.0
+          },
+          "OnlyShowAlive": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "OnlyShowNotOpened": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "OnlyShowNonHiddenIcons": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "DisableDrawingHiddenIcon": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          }
+        }
+      ]
     }
   }
 }

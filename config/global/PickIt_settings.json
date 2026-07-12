@@ -46,12 +46,12 @@
       "Location": "换届石-自定义阶级.ifl"
     },
     {
-      "Enabled": true,
+      "Enabled": false,
       "Name": "珠宝-自定义.ifl",
       "Location": "珠宝-自定义.ifl"
     },
     {
-      "Enabled": true,
+      "Enabled": false,
       "Name": "暗金-全部.ifl",
       "Location": "暗金-全部.ifl"
     },
@@ -82,7 +82,7 @@
     }
   ],
   "Enable": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -172,12 +172,12 @@
     },
     "Position": {
       "Value": {
-        "X": 50.0,
-        "Y": 50.0
+        "X": 84.268,
+        "Y": 92.903
       }
     },
     "BackdropPadding": {
-      "Value": 1
+      "Value": 0
     },
     "CellSize": {
       "Value": 20
@@ -251,7 +251,7 @@
     "Value": 20
   },
   "AutoClickHoveredLootInRange": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -284,7 +284,7 @@
     }
   },
   "LazyLooting": {
-    "Value": true,
+    "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
