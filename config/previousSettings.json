@@ -30,7 +30,7 @@
     "ValueV2": {
       "ControllerKey": "None",
       "ControllerModifierKey": "None",
-      "Key": "Insert",
+      "Key": "F12",
       "Win": false
     }
   },

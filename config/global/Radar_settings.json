@@ -200,12 +200,12 @@
     },
     "WorldPathSettings": {
       "ShowPathsToTargets": {
-        "Value": true,
+        "Value": false,
         "AttachedHotkey": {
           "ValueV2": {
             "ControllerKey": "None",
             "ControllerModifierKey": "None",
-            "Key": "Delete",
+            "Key": "None",
             "Win": false
           }
         }

@@ -1,6 +1,6 @@
 {
   "DataSourceSettings": {
-    "LastUpdateTime": "2026-07-12T12:33:22.0793261+08:00",
+    "LastUpdateTime": "2026-07-12T20:59:11.0635607+08:00",
     "ItemUpdatePeriodMs": {
       "Value": 250
     },
@@ -61,11 +61,22 @@
         }
       }
     },
+    "UseCustomPosition": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
     "PositionX": {
-      "Value": 9
+      "Value": 6
     },
     "PositionY": {
-      "Value": 9
+      "Value": 6
     },
     "TopValuedItemCount": {
       "Value": 3
@@ -212,11 +223,22 @@
         }
       }
     },
+    "UseCustomPosition": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
     "PositionX": {
-      "Value": 1700
+      "Value": 6
     },
     "PositionY": {
-      "Value": 700
+      "Value": 6
     }
   },
   "GroundItemSettings": {
@@ -455,7 +477,7 @@
       "Value": 1
     },
     "FontColor": "ffffffce",
-    "BackgroundColor": "ffffff00",
+    "BackgroundColor": "000000fc",
     "SemiValuableColorThreshold": {
       "Value": 10
     },
@@ -505,7 +527,8 @@
   },
   "ValuationDisablingSettings": {
     "ValuationDisabledByItemType": {
-      "Currency": false
+      "Currency": false,
+      "SoulCores": false
     }
   },
   "Enable": {

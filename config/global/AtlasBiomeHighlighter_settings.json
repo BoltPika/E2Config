@@ -11,7 +11,7 @@
     }
   },
   "UiLanguage": {
-    "Value": 0
+    "Value": 1
   },
   "BorderX": {
     "Value": 0
@@ -20,19 +20,19 @@
     "Value": 0
   },
   "AtlasRefreshMs": {
-    "Value": 200
+    "Value": 4753
   },
   "ScreenRefreshMs": {
-    "Value": 200
+    "Value": 800
   },
   "NodeRadius": {
-    "Value": 4
+    "Value": 20
   },
   "RingThickness": {
-    "Value": 1
+    "Value": 3
   },
   "Opacity": {
-    "Value": 1.0
+    "Value": 0.8
   },
   "ShowLabels": {
     "Value": true,
@@ -89,6 +89,17 @@
       }
     }
   },
+  "DebugSignalPositions": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
   "PerformanceProfiling": {
     "Value": false,
     "AttachedHotkey": {
@@ -103,6 +114,8 @@
   "PerformanceSpikeThresholdMs": {
     "Value": 4
   },
+  "DiagnosticsSettingsVersion": 1,
+  "ModernLabelSettingsVersion": 3,
   "FastRingRendering": {
     "Value": true,
     "AttachedHotkey": {
@@ -129,7 +142,7 @@
     }
   },
   "HideAttemptedMaps": {
-    "Value": true,
+    "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -233,7 +246,7 @@
       }
     }
   },
-  "PreferredMapRingColor": "0fe4e4ff",
+  "PreferredMapRingColor": "00ced1ff",
   "IslandRumoursEnabled": {
     "Value": true,
     "AttachedHotkey": {
@@ -255,6 +268,9 @@
         "Win": false
       }
     }
+  },
+  "ToggleIslandRumourTablesHotkey": {
+    "Value": 118
   },
   "IslandRumourLiveTooltipScanEnabled": {
     "Value": true,
@@ -312,6 +328,17 @@
     }
   },
   "IslandRumourRegionStatsColor": "78dcffff",
+  "IslandRumourRowAccents": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
   "IslandRumourColors": {
     "Fallen Stars": "ffd250ff",
     "Cold as ice": "be8cffff",
@@ -1057,7 +1084,7 @@
     "Swamp Tower": "5ab4ffff"
   },
   "PreferredGuideLines": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -1090,20 +1117,31 @@
     }
   },
   "PreferredGuideThickness": {
-    "Value": 1
+    "Value": 2
   },
   "PreferredArrowSize": {
     "Value": 12
   },
   "PreferredGuideLimit": {
-    "Value": 10
+    "Value": 40
   },
   "PreferredGuideLinesToggleHotkey": {
     "Value": 36
   },
+  "PreferredGuideTargetPulse": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
   "PreferredMapGroups": [
     {
-      "Name": "默认分组",
+      "Name": "默认",
       "Enabled": true,
       "Maps": [],
       "Mechanics": [],
@@ -2859,391 +2897,6 @@
           "Win": false
         }
       }
-    },
-    "Blooming Field - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Savannah - Best": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Fortress - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Lost Towers - Tower": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Sandspit - Best": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Sulphuric Caverns - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Sump - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Willow - Best": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Steaming Springs - Best": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Riverside - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Steppe - Best": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Slick - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Spider Woods - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Bloodwood - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Cenotes - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Hidden Grotto - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Ravine - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Alpine Ridge - Tower": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Creek - Best": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Crimson Shores - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Decay - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Hive - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Oasis - Good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Sinking Spire - Tower": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Rustbowl - Best": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Backwash - good": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Burial Bog - Best": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Wetlands - Best": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Mesa - Tower": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Bluff - Tower": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Wayward Isle - Best": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "The Jade Isles - Boss": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Sacred Reservoir - Boss": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Sealed Vault - Boss": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Derelict Mansion - Boss": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
     }
   },
   "SpecialRingThickness": {
@@ -3324,9 +2977,79 @@
     }
   },
   "LabelOutlineThickness": {
-    "Value": 1
+    "Value": 2
   },
   "LabelBold": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ModernLabelCards": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ModernLabelScale": {
+    "Value": 1.0
+  },
+  "ModernLabelBackgroundOpacity": {
+    "Value": 0.88
+  },
+  "ModernLabelMaxWidth": {
+    "Value": 360
+  },
+  "ModernLabelPreloadViewportScale": {
+    "Value": 1.5
+  },
+  "ModernLabelConnector": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ModernLabelAutoCompact": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ModernLabelCompactScaleThreshold": {
+    "Value": 0.72
+  },
+  "ModernLabelHideOrdinaryWhenZoomedOut": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ModernLabelShowBiomeText": {
     "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
@@ -3337,8 +3060,79 @@
       }
     }
   },
+  "ModernLabelReadableBiomeBadge": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ModernLabelUseBiomeTitleColor": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ModernLabelDeclutter": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ModernLabelSpacing": {
+    "Value": 0
+  },
+  "ModernLabelBackgroundColor": "0f1319ff",
+  "ModernLabelBorderColor": "a4afc2ff",
+  "ModernLabelSmoothReveal": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ModernLabelPrioritySignalColors": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ModernLabelAdaptiveTextContrast": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
   "ShowMapNames": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -3456,64 +3250,7 @@
   "WaypointJumpMemoryWriteMaxStep": {
     "Value": 1024
   },
-  "Waypoints": [
-    {
-      "X": 1,
-      "Y": 131,
-      "PositionX": 68227.74,
-      "PositionY": -105650.49,
-      "TowersCount": 6,
-      "ColorArgb": -44976,
-      "Selected": true,
-      "Enabled": true,
-      "ShowLabel": true,
-      "Name": "礦井",
-      "AutoFavoriteMap": false,
-      "FavoriteMapName": ""
-    },
-    {
-      "X": 12,
-      "Y": 122,
-      "PositionX": 63054.688,
-      "PositionY": -92583.945,
-      "TowersCount": 1,
-      "ColorArgb": -44976,
-      "Selected": true,
-      "Enabled": true,
-      "ShowLabel": true,
-      "Name": "巨坑",
-      "AutoFavoriteMap": false,
-      "FavoriteMapName": ""
-    },
-    {
-      "X": -40,
-      "Y": 158,
-      "PositionX": 102524.1,
-      "PositionY": -124231.44,
-      "TowersCount": 2,
-      "ColorArgb": -44976,
-      "Selected": true,
-      "Enabled": true,
-      "ShowLabel": true,
-      "Name": "乾草原[★]",
-      "AutoFavoriteMap": false,
-      "FavoriteMapName": ""
-    },
-    {
-      "X": -21,
-      "Y": 129,
-      "PositionX": 1.0,
-      "PositionY": 0.6784314,
-      "TowersCount": 2,
-      "ColorArgb": -44976,
-      "Selected": true,
-      "Enabled": true,
-      "ShowLabel": true,
-      "Name": "廢料堆",
-      "AutoFavoriteMap": false,
-      "FavoriteMapName": ""
-    }
-  ],
+  "Waypoints": [],
   "DefaultWaypointColor": "ff5050ff",
   "WaypointRingRadius": {
     "Value": 32
@@ -3594,7 +3331,7 @@
   "TowerRange": {
     "Value": 11
   },
-  "TowerRangeColor": "f3eeeeff",
+  "TowerRangeColor": "ffffffff",
   "AddWaypointHotkey": {
     "Value": 45
   },
@@ -3612,7 +3349,7 @@
   },
   "Visible": {
     "Water": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -3623,7 +3360,7 @@
       }
     },
     "Ocean": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -3634,7 +3371,7 @@
       }
     },
     "BreachCity": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -3645,7 +3382,7 @@
       }
     },
     "OriathCity": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -3656,7 +3393,7 @@
       }
     },
     "EzomytesCity": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -3667,7 +3404,7 @@
       }
     },
     "Swamp": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -3678,7 +3415,7 @@
       }
     },
     "Mountain": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -3689,7 +3426,7 @@
       }
     },
     "Forest": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -3700,7 +3437,7 @@
       }
     },
     "Desert": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -3711,7 +3448,7 @@
       }
     },
     "Grass": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -3722,7 +3459,7 @@
       }
     },
     "Citadel_Stone": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -3733,7 +3470,7 @@
       }
     },
     "Citadel_Iron": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -3744,17 +3481,6 @@
       }
     },
     "Citadel_Copper": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
-    "Unknown": {
       "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
@@ -3777,7 +3503,7 @@
     "Forest": "228b22ff",
     "Desert": "daa520ff",
     "Grass": "7cfc00ff",
-    "Citadel_Stone": "8fe287ff",
+    "Citadel_Stone": "a9a9a9ff",
     "Citadel_Iron": "4682b4ff",
     "Citadel_Copper": "b87333ff",
     "Unknown": "ba55d3ff"

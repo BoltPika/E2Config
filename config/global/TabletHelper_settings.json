@@ -625,6 +625,198 @@
       "Key": "Irradiated",
       "DisplayName": "辐照石板",
       "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Breach",
+      "DisplayName": "裂隙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Delirium",
+      "DisplayName": "谵妄石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Abyss",
+      "DisplayName": "深渊石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Ritual",
+      "DisplayName": "祭祀石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Overseer",
+      "DisplayName": "首领石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Temple",
+      "DisplayName": "瓦尔神庙石板",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Global",
+      "DisplayName": "全局",
+      "Enabled": true,
+      "Groups": []
+    },
+    {
+      "Key": "Irradiated",
+      "DisplayName": "辐照石板",
+      "Enabled": true,
       "Groups": [
         {
           "Id": "2025cc975b604713b350f3fb2232b2a4",
