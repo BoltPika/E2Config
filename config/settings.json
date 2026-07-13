@@ -294,7 +294,7 @@
                 "Value": 14
               },
               {
-                "Value": 18
+                "Value": 16
               }
             ]
           }
@@ -302,7 +302,7 @@
       ]
     },
     "MainFont": {
-      "Value": "syht:18"
+      "Value": "syht:14"
     },
     "FontGlyphRange": {
       "Value": "ChineseFull"
@@ -423,7 +423,7 @@
     }
   },
   "Enable": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",

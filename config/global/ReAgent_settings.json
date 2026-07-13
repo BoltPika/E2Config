@@ -671,7 +671,7 @@
             "ValueV2": {
               "ControllerKey": "None",
               "ControllerModifierKey": "None",
-              "Key": "D4",
+              "Key": "None",
               "Win": false
             }
           },
@@ -679,11 +679,11 @@
             "ValueV2": {
               "ControllerKey": "None",
               "ControllerModifierKey": "None",
-              "Key": "D4",
+              "Key": "None",
               "Win": false
             }
           },
-          "Key": 52
+          "Key": 0
         },
         {
           "Rules": [

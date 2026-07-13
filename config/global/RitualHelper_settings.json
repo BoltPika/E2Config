@@ -83,7 +83,7 @@
     }
   },
   "MinCurrencyValue": {
-    "Value": 8.0
+    "Value": 20.0
   },
   "IncludeRitualItems": {
     "Value": true,
@@ -97,7 +97,7 @@
     }
   },
   "MinRitualValue": {
-    "Value": 8.0
+    "Value": 20.0
   },
   "IncludeUniqueAccessories": {
     "Value": true,
@@ -209,7 +209,93 @@
     }
   },
   "DeferGroup": {
-    "Items": [],
+    "Items": [
+      {
+        "Name": "卡蘭德的魔鏡",
+        "Enabled": true,
+        "Priority": 10,
+        "MinStackSize": 1,
+        "IsApiItem": {
+          "Value": false,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        }
+      },
+      {
+        "Name": "悉尼蔻拉的髮絲",
+        "Enabled": true,
+        "Priority": 10,
+        "MinStackSize": 1,
+        "IsApiItem": {
+          "Value": false,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        }
+      },
+      {
+        "Name": "機會之兆",
+        "Enabled": true,
+        "Priority": 9,
+        "MinStackSize": 1,
+        "IsApiItem": {
+          "Value": false,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        }
+      },
+      {
+        "Name": "廢止之兆",
+        "Enabled": true,
+        "Priority": 9,
+        "MinStackSize": 1,
+        "IsApiItem": {
+          "Value": false,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        }
+      },
+      {
+        "Name": "抹除之兆",
+        "Enabled": true,
+        "Priority": 9,
+        "MinStackSize": 1,
+        "IsApiItem": {
+          "Value": false,
+          "AttachedHotkey": {
+            "ValueV2": {
+              "ControllerKey": "None",
+              "ControllerModifierKey": "None",
+              "Key": "None",
+              "Win": false
+            }
+          }
+        }
+      }
+    ],
     "Enabled": true,
     "Name": "默认延期规则组"
   }
